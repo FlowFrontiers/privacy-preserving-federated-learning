@@ -1,0 +1,356 @@
+2025-03-03 20:19:58,056 - INFO - Starting Differential Privacy Experiment: dp_p1n1.0_p2n0.5
+2025-03-03 20:19:58,056 - INFO - P1 Noise Multiplier: 1.0, P2 Noise Multiplier: 0.5
+2025-03-03 20:19:59,577 - INFO - Creating dataloaders...
+2025-03-03 20:19:59,586 - INFO - Running experiment with 10 rounds, 10 epochs per client
+2025-03-03 20:19:59,586 - INFO - Starting Round 1/10
+2025-03-03 20:19:59,587 - INFO - Training client P1 (Round 1) with noise_multiplier=1.0
+2025-03-03 20:19:59,587 - INFO - P1 (Round 1) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 20:20:42,270 - INFO - P1 (Round 1) - Epoch 1/10 | Loss: 0.7342 | Acc: 0.8009 | Val Loss: 0.5667 | Val Acc: 0.8887 | Grad Norm: 1.3439 | Noise: 26.7395 | SNR: 0.0503 | ε: 0.09 (δ=7.6e-08) | Time: 42.62s
+2025-03-03 20:21:24,831 - INFO - P1 (Round 1) - Epoch 2/10 | Loss: 0.5224 | Acc: 0.8957 | Val Loss: 0.4823 | Val Acc: 0.9018 | Grad Norm: 1.4326 | Noise: 26.7395 | SNR: 0.0536 | ε: 0.12 (δ=7.6e-08) | Time: 42.48s
+2025-03-03 20:22:06,711 - INFO - P1 (Round 1) - Epoch 3/10 | Loss: 0.4893 | Acc: 0.9034 | Val Loss: 0.4620 | Val Acc: 0.9071 | Grad Norm: 1.5249 | Noise: 26.7395 | SNR: 0.0570 | ε: 0.15 (δ=7.6e-08) | Time: 41.75s
+2025-03-03 20:22:49,096 - INFO - P1 (Round 1) - Epoch 4/10 | Loss: 0.4619 | Acc: 0.9083 | Val Loss: 0.4377 | Val Acc: 0.9107 | Grad Norm: 1.5242 | Noise: 26.7395 | SNR: 0.0570 | ε: 0.17 (δ=7.6e-08) | Time: 42.27s
+2025-03-03 20:23:33,565 - INFO - P1 (Round 1) - Epoch 5/10 | Loss: 0.4431 | Acc: 0.9122 | Val Loss: 0.4201 | Val Acc: 0.9149 | Grad Norm: 1.5115 | Noise: 26.7395 | SNR: 0.0565 | ε: 0.19 (δ=7.6e-08) | Time: 44.33s
+2025-03-03 20:24:16,432 - INFO - P1 (Round 1) - Epoch 6/10 | Loss: 0.4256 | Acc: 0.9161 | Val Loss: 0.4151 | Val Acc: 0.9181 | Grad Norm: 1.4711 | Noise: 26.7395 | SNR: 0.0550 | ε: 0.21 (δ=7.6e-08) | Time: 42.72s
+2025-03-03 20:24:59,312 - INFO - P1 (Round 1) - Epoch 7/10 | Loss: 0.4103 | Acc: 0.9186 | Val Loss: 0.3932 | Val Acc: 0.9206 | Grad Norm: 1.5034 | Noise: 26.7395 | SNR: 0.0562 | ε: 0.23 (δ=7.6e-08) | Time: 42.71s
+2025-03-03 20:25:42,491 - INFO - P1 (Round 1) - Epoch 8/10 | Loss: 0.4016 | Acc: 0.9201 | Val Loss: 0.3878 | Val Acc: 0.9238 | Grad Norm: 1.5148 | Noise: 26.7395 | SNR: 0.0566 | ε: 0.24 (δ=7.6e-08) | Time: 43.01s
+2025-03-03 20:26:25,121 - INFO - P1 (Round 1) - Epoch 9/10 | Loss: 0.3920 | Acc: 0.9216 | Val Loss: 0.3763 | Val Acc: 0.9226 | Grad Norm: 1.5212 | Noise: 26.7395 | SNR: 0.0569 | ε: 0.26 (δ=7.6e-08) | Time: 42.46s
+2025-03-03 20:27:07,956 - INFO - P1 (Round 1) - Epoch 10/10 | Loss: 0.3801 | Acc: 0.9231 | Val Loss: 0.3768 | Val Acc: 0.9251 | Grad Norm: 1.5194 | Noise: 26.7395 | SNR: 0.0568 | ε: 0.27 (δ=7.6e-08) | Time: 42.60s
+2025-03-03 20:27:07,956 - INFO - P1 (Round 1) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 20:27:07,957 - INFO - Training client P2 (Round 1) with noise_multiplier=0.5
+2025-03-03 20:27:07,957 - INFO - P2 (Round 1) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 20:27:50,808 - INFO - P2 (Round 1) - Epoch 1/10 | Loss: 0.7033 | Acc: 0.8195 | Val Loss: 0.5451 | Val Acc: 0.8952 | Grad Norm: 1.3968 | Noise: 13.3697 | SNR: 0.1045 | ε: 3.53 (δ=7.6e-08) | Time: 42.68s
+2025-03-03 20:28:33,824 - INFO - P2 (Round 1) - Epoch 2/10 | Loss: 0.4794 | Acc: 0.9020 | Val Loss: 0.4299 | Val Acc: 0.9107 | Grad Norm: 1.3700 | Noise: 13.3697 | SNR: 0.1025 | ε: 3.81 (δ=7.6e-08) | Time: 42.81s
+2025-03-03 20:29:17,170 - INFO - P2 (Round 1) - Epoch 3/10 | Loss: 0.4238 | Acc: 0.9145 | Val Loss: 0.4087 | Val Acc: 0.9197 | Grad Norm: 1.3506 | Noise: 13.3697 | SNR: 0.1010 | ε: 3.98 (δ=7.6e-08) | Time: 43.08s
+2025-03-03 20:29:59,788 - INFO - P2 (Round 1) - Epoch 4/10 | Loss: 0.3989 | Acc: 0.9224 | Val Loss: 0.3882 | Val Acc: 0.9253 | Grad Norm: 1.3509 | Noise: 13.3697 | SNR: 0.1010 | ε: 4.10 (δ=7.6e-08) | Time: 42.33s
+2025-03-03 20:30:42,133 - INFO - P2 (Round 1) - Epoch 5/10 | Loss: 0.3818 | Acc: 0.9263 | Val Loss: 0.3769 | Val Acc: 0.9283 | Grad Norm: 1.3620 | Noise: 13.3697 | SNR: 0.1019 | ε: 4.21 (δ=7.6e-08) | Time: 42.02s
+2025-03-03 20:31:23,867 - INFO - P2 (Round 1) - Epoch 6/10 | Loss: 0.3680 | Acc: 0.9295 | Val Loss: 0.3592 | Val Acc: 0.9309 | Grad Norm: 1.3812 | Noise: 13.3697 | SNR: 0.1033 | ε: 4.30 (δ=7.6e-08) | Time: 41.50s
+2025-03-03 20:32:05,918 - INFO - P2 (Round 1) - Epoch 7/10 | Loss: 0.3543 | Acc: 0.9312 | Val Loss: 0.3454 | Val Acc: 0.9322 | Grad Norm: 1.4342 | Noise: 13.3697 | SNR: 0.1073 | ε: 4.38 (δ=7.6e-08) | Time: 41.67s
+2025-03-03 20:32:48,313 - INFO - P2 (Round 1) - Epoch 8/10 | Loss: 0.3382 | Acc: 0.9332 | Val Loss: 0.3263 | Val Acc: 0.9351 | Grad Norm: 1.4730 | Noise: 13.3697 | SNR: 0.1102 | ε: 4.45 (δ=7.6e-08) | Time: 41.99s
+2025-03-03 20:33:31,448 - INFO - P2 (Round 1) - Epoch 9/10 | Loss: 0.3252 | Acc: 0.9368 | Val Loss: 0.3325 | Val Acc: 0.9375 | Grad Norm: 1.4905 | Noise: 13.3697 | SNR: 0.1115 | ε: 4.52 (δ=7.6e-08) | Time: 42.69s
+2025-03-03 20:34:14,808 - INFO - P2 (Round 1) - Epoch 10/10 | Loss: 0.3205 | Acc: 0.9393 | Val Loss: 0.3220 | Val Acc: 0.9397 | Grad Norm: 1.5049 | Noise: 13.3697 | SNR: 0.1126 | ε: 4.58 (δ=7.6e-08) | Time: 42.88s
+2025-03-03 20:34:14,808 - INFO - P2 (Round 1) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 20:34:14,809 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 0.2694
+2025-03-03 20:34:14,809 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 4.5794
+2025-03-03 20:34:14,809 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 20:34:16,800 - INFO - Round 1/10 completed in 857.21s
+2025-03-03 20:34:16,801 - INFO - Global Model - P1 Test: Loss = 0.6491, Accuracy = 0.9048
+2025-03-03 20:34:16,801 - INFO - Global Model - P2 Test: Loss = 0.6534, Accuracy = 0.9043
+2025-03-03 20:34:16,801 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 20:34:16,801 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 20:34:16,801 - INFO - Starting Round 2/10
+2025-03-03 20:34:16,802 - INFO - Training client P1 (Round 2) with noise_multiplier=1.0
+2025-03-03 20:34:16,803 - INFO - P1 (Round 2) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 20:34:59,167 - INFO - P1 (Round 2) - Epoch 1/10 | Loss: 0.3671 | Acc: 0.9295 | Val Loss: 0.3510 | Val Acc: 0.9317 | Grad Norm: 1.5495 | Noise: 26.7395 | SNR: 0.0579 | ε: 0.09 (δ=7.6e-08) | Time: 42.30s
+2025-03-03 20:35:41,255 - INFO - P1 (Round 2) - Epoch 2/10 | Loss: 0.3405 | Acc: 0.9326 | Val Loss: 0.3271 | Val Acc: 0.9334 | Grad Norm: 1.5605 | Noise: 26.7395 | SNR: 0.0584 | ε: 0.12 (δ=7.6e-08) | Time: 41.99s
+2025-03-03 20:36:23,363 - INFO - P1 (Round 2) - Epoch 3/10 | Loss: 0.3298 | Acc: 0.9344 | Val Loss: 0.3270 | Val Acc: 0.9362 | Grad Norm: 1.5775 | Noise: 26.7395 | SNR: 0.0590 | ε: 0.15 (δ=7.6e-08) | Time: 41.99s
+2025-03-03 20:37:05,252 - INFO - P1 (Round 2) - Epoch 4/10 | Loss: 0.3196 | Acc: 0.9373 | Val Loss: 0.3307 | Val Acc: 0.9375 | Grad Norm: 1.5704 | Noise: 26.7395 | SNR: 0.0587 | ε: 0.17 (δ=7.6e-08) | Time: 41.75s
+2025-03-03 20:37:47,582 - INFO - P1 (Round 2) - Epoch 5/10 | Loss: 0.3200 | Acc: 0.9376 | Val Loss: 0.3245 | Val Acc: 0.9384 | Grad Norm: 1.5690 | Noise: 26.7395 | SNR: 0.0587 | ε: 0.19 (δ=7.6e-08) | Time: 42.17s
+2025-03-03 20:38:30,552 - INFO - P1 (Round 2) - Epoch 6/10 | Loss: 0.3216 | Acc: 0.9388 | Val Loss: 0.3217 | Val Acc: 0.9384 | Grad Norm: 1.6090 | Noise: 26.7395 | SNR: 0.0602 | ε: 0.21 (δ=7.6e-08) | Time: 42.81s
+2025-03-03 20:39:12,475 - INFO - P1 (Round 2) - Epoch 7/10 | Loss: 0.3164 | Acc: 0.9398 | Val Loss: 0.3107 | Val Acc: 0.9407 | Grad Norm: 1.6138 | Noise: 26.7395 | SNR: 0.0604 | ε: 0.23 (δ=7.6e-08) | Time: 41.74s
+2025-03-03 20:39:59,312 - INFO - P1 (Round 2) - Epoch 8/10 | Loss: 0.3166 | Acc: 0.9409 | Val Loss: 0.3089 | Val Acc: 0.9437 | Grad Norm: 1.6327 | Noise: 26.7395 | SNR: 0.0611 | ε: 0.24 (δ=7.6e-08) | Time: 46.61s
+2025-03-03 20:40:46,333 - INFO - P1 (Round 2) - Epoch 9/10 | Loss: 0.3124 | Acc: 0.9426 | Val Loss: 0.3145 | Val Acc: 0.9447 | Grad Norm: 1.6500 | Noise: 26.7395 | SNR: 0.0617 | ε: 0.26 (δ=7.6e-08) | Time: 46.81s
+2025-03-03 20:41:34,337 - INFO - P1 (Round 2) - Epoch 10/10 | Loss: 0.3125 | Acc: 0.9441 | Val Loss: 0.3235 | Val Acc: 0.9456 | Grad Norm: 1.6677 | Noise: 26.7395 | SNR: 0.0624 | ε: 0.27 (δ=7.6e-08) | Time: 47.78s
+2025-03-03 20:41:34,337 - INFO - P1 (Round 2) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 20:41:34,337 - INFO - Training client P2 (Round 2) with noise_multiplier=0.5
+2025-03-03 20:41:34,338 - INFO - P2 (Round 2) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 20:42:19,025 - INFO - P2 (Round 2) - Epoch 1/10 | Loss: 0.3538 | Acc: 0.9319 | Val Loss: 0.3310 | Val Acc: 0.9344 | Grad Norm: 1.5705 | Noise: 13.3697 | SNR: 0.1175 | ε: 3.53 (δ=7.6e-08) | Time: 44.49s
+2025-03-03 20:43:06,022 - INFO - P2 (Round 2) - Epoch 2/10 | Loss: 0.3243 | Acc: 0.9368 | Val Loss: 0.3237 | Val Acc: 0.9385 | Grad Norm: 1.5846 | Noise: 13.3697 | SNR: 0.1185 | ε: 3.81 (δ=7.6e-08) | Time: 46.73s
+2025-03-03 20:43:51,387 - INFO - P2 (Round 2) - Epoch 3/10 | Loss: 0.3155 | Acc: 0.9398 | Val Loss: 0.3048 | Val Acc: 0.9408 | Grad Norm: 1.6145 | Noise: 13.3697 | SNR: 0.1208 | ε: 3.98 (δ=7.6e-08) | Time: 45.10s
+2025-03-03 20:44:36,326 - INFO - P2 (Round 2) - Epoch 4/10 | Loss: 0.3046 | Acc: 0.9429 | Val Loss: 0.3038 | Val Acc: 0.9440 | Grad Norm: 1.5679 | Noise: 13.3697 | SNR: 0.1173 | ε: 4.10 (δ=7.6e-08) | Time: 44.66s
+2025-03-03 20:45:20,314 - INFO - P2 (Round 2) - Epoch 5/10 | Loss: 0.3060 | Acc: 0.9442 | Val Loss: 0.3088 | Val Acc: 0.9447 | Grad Norm: 1.6054 | Noise: 13.3697 | SNR: 0.1201 | ε: 4.21 (δ=7.6e-08) | Time: 43.67s
+2025-03-03 20:46:06,147 - INFO - P2 (Round 2) - Epoch 6/10 | Loss: 0.3056 | Acc: 0.9453 | Val Loss: 0.3078 | Val Acc: 0.9454 | Grad Norm: 1.6056 | Noise: 13.3697 | SNR: 0.1201 | ε: 4.30 (δ=7.6e-08) | Time: 45.61s
+2025-03-03 20:46:54,951 - INFO - P2 (Round 2) - Epoch 7/10 | Loss: 0.2995 | Acc: 0.9464 | Val Loss: 0.3004 | Val Acc: 0.9467 | Grad Norm: 1.6241 | Noise: 13.3697 | SNR: 0.1215 | ε: 4.38 (δ=7.6e-08) | Time: 48.40s
+2025-03-03 20:47:43,849 - INFO - P2 (Round 2) - Epoch 8/10 | Loss: 0.3010 | Acc: 0.9478 | Val Loss: 0.3032 | Val Acc: 0.9485 | Grad Norm: 1.6395 | Noise: 13.3697 | SNR: 0.1226 | ε: 4.45 (δ=7.6e-08) | Time: 48.48s
+2025-03-03 20:48:30,351 - INFO - P2 (Round 2) - Epoch 9/10 | Loss: 0.3024 | Acc: 0.9495 | Val Loss: 0.2985 | Val Acc: 0.9505 | Grad Norm: 1.6164 | Noise: 13.3697 | SNR: 0.1209 | ε: 4.52 (δ=7.6e-08) | Time: 46.05s
+2025-03-03 20:49:19,141 - INFO - P2 (Round 2) - Epoch 10/10 | Loss: 0.2962 | Acc: 0.9507 | Val Loss: 0.2987 | Val Acc: 0.9511 | Grad Norm: 1.6548 | Noise: 13.3697 | SNR: 0.1238 | ε: 4.58 (δ=7.6e-08) | Time: 48.30s
+2025-03-03 20:49:19,141 - INFO - P2 (Round 2) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 20:49:19,142 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 0.5388
+2025-03-03 20:49:19,142 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 9.1589
+2025-03-03 20:49:19,142 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 20:49:21,118 - INFO - Round 2/10 completed in 904.32s
+2025-03-03 20:49:21,118 - INFO - Global Model - P1 Test: Loss = 0.3129, Accuracy = 0.9464
+2025-03-03 20:49:21,118 - INFO - Global Model - P2 Test: Loss = 0.3109, Accuracy = 0.9468
+2025-03-03 20:49:21,118 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 20:49:21,118 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 20:49:21,118 - INFO - Starting Round 3/10
+2025-03-03 20:49:21,119 - INFO - Training client P1 (Round 3) with noise_multiplier=1.0
+2025-03-03 20:49:21,119 - INFO - P1 (Round 3) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 20:50:09,996 - INFO - P1 (Round 3) - Epoch 1/10 | Loss: 0.3085 | Acc: 0.9480 | Val Loss: 0.3143 | Val Acc: 0.9493 | Grad Norm: 1.6804 | Noise: 26.7395 | SNR: 0.0628 | ε: 0.09 (δ=7.6e-08) | Time: 48.80s
+2025-03-03 20:50:58,004 - INFO - P1 (Round 3) - Epoch 2/10 | Loss: 0.3062 | Acc: 0.9489 | Val Loss: 0.3039 | Val Acc: 0.9501 | Grad Norm: 1.6809 | Noise: 26.7395 | SNR: 0.0629 | ε: 0.12 (δ=7.6e-08) | Time: 47.91s
+2025-03-03 20:51:43,023 - INFO - P1 (Round 3) - Epoch 3/10 | Loss: 0.3061 | Acc: 0.9493 | Val Loss: 0.3065 | Val Acc: 0.9501 | Grad Norm: 1.6818 | Noise: 26.7395 | SNR: 0.0629 | ε: 0.15 (δ=7.6e-08) | Time: 44.89s
+2025-03-03 20:52:27,429 - INFO - P1 (Round 3) - Epoch 4/10 | Loss: 0.3045 | Acc: 0.9497 | Val Loss: 0.3078 | Val Acc: 0.9501 | Grad Norm: 1.6969 | Noise: 26.7395 | SNR: 0.0635 | ε: 0.17 (δ=7.6e-08) | Time: 44.27s
+2025-03-03 20:53:14,661 - INFO - P1 (Round 3) - Epoch 5/10 | Loss: 0.2953 | Acc: 0.9505 | Val Loss: 0.3038 | Val Acc: 0.9500 | Grad Norm: 1.6977 | Noise: 26.7395 | SNR: 0.0635 | ε: 0.19 (δ=7.6e-08) | Time: 47.06s
+2025-03-03 20:54:07,204 - INFO - P1 (Round 3) - Epoch 6/10 | Loss: 0.3021 | Acc: 0.9511 | Val Loss: 0.3058 | Val Acc: 0.9517 | Grad Norm: 1.7068 | Noise: 26.7395 | SNR: 0.0638 | ε: 0.21 (δ=7.6e-08) | Time: 52.38s
+2025-03-03 20:54:54,605 - INFO - P1 (Round 3) - Epoch 7/10 | Loss: 0.3028 | Acc: 0.9517 | Val Loss: 0.3033 | Val Acc: 0.9530 | Grad Norm: 1.7503 | Noise: 26.7395 | SNR: 0.0655 | ε: 0.23 (δ=7.6e-08) | Time: 47.22s
+2025-03-03 20:55:41,999 - INFO - P1 (Round 3) - Epoch 8/10 | Loss: 0.3060 | Acc: 0.9520 | Val Loss: 0.3011 | Val Acc: 0.9522 | Grad Norm: 1.7582 | Noise: 26.7395 | SNR: 0.0658 | ε: 0.24 (δ=7.6e-08) | Time: 47.19s
+2025-03-03 20:56:29,190 - INFO - P1 (Round 3) - Epoch 9/10 | Loss: 0.3061 | Acc: 0.9529 | Val Loss: 0.3098 | Val Acc: 0.9536 | Grad Norm: 1.7717 | Noise: 26.7395 | SNR: 0.0663 | ε: 0.26 (δ=7.6e-08) | Time: 47.00s
+2025-03-03 20:57:14,447 - INFO - P1 (Round 3) - Epoch 10/10 | Loss: 0.3054 | Acc: 0.9535 | Val Loss: 0.3100 | Val Acc: 0.9543 | Grad Norm: 1.7752 | Noise: 26.7395 | SNR: 0.0664 | ε: 0.27 (δ=7.6e-08) | Time: 45.03s
+2025-03-03 20:57:14,447 - INFO - P1 (Round 3) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 20:57:14,447 - INFO - Training client P2 (Round 3) with noise_multiplier=0.5
+2025-03-03 20:57:14,448 - INFO - P2 (Round 3) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 20:58:00,362 - INFO - P2 (Round 3) - Epoch 1/10 | Loss: 0.2999 | Acc: 0.9497 | Val Loss: 0.3112 | Val Acc: 0.9499 | Grad Norm: 1.6535 | Noise: 13.3697 | SNR: 0.1237 | ε: 3.53 (δ=7.6e-08) | Time: 45.72s
+2025-03-03 20:58:47,148 - INFO - P2 (Round 3) - Epoch 2/10 | Loss: 0.3022 | Acc: 0.9503 | Val Loss: 0.2977 | Val Acc: 0.9514 | Grad Norm: 1.6942 | Noise: 13.3697 | SNR: 0.1267 | ε: 3.81 (δ=7.6e-08) | Time: 46.58s
+2025-03-03 20:59:33,404 - INFO - P2 (Round 3) - Epoch 3/10 | Loss: 0.2975 | Acc: 0.9512 | Val Loss: 0.3000 | Val Acc: 0.9520 | Grad Norm: 1.7122 | Noise: 13.3697 | SNR: 0.1281 | ε: 3.98 (δ=7.6e-08) | Time: 45.98s
+2025-03-03 21:00:19,106 - INFO - P2 (Round 3) - Epoch 4/10 | Loss: 0.2921 | Acc: 0.9524 | Val Loss: 0.2955 | Val Acc: 0.9526 | Grad Norm: 1.6933 | Noise: 13.3697 | SNR: 0.1267 | ε: 4.10 (δ=7.6e-08) | Time: 45.39s
+2025-03-03 21:01:04,525 - INFO - P2 (Round 3) - Epoch 5/10 | Loss: 0.2945 | Acc: 0.9536 | Val Loss: 0.2967 | Val Acc: 0.9544 | Grad Norm: 1.7179 | Noise: 13.3697 | SNR: 0.1285 | ε: 4.21 (δ=7.6e-08) | Time: 45.11s
+2025-03-03 21:01:48,411 - INFO - P2 (Round 3) - Epoch 6/10 | Loss: 0.2924 | Acc: 0.9546 | Val Loss: 0.2906 | Val Acc: 0.9544 | Grad Norm: 1.7186 | Noise: 13.3697 | SNR: 0.1285 | ε: 4.30 (δ=7.6e-08) | Time: 43.66s
+2025-03-03 21:02:32,015 - INFO - P2 (Round 3) - Epoch 7/10 | Loss: 0.2860 | Acc: 0.9555 | Val Loss: 0.2795 | Val Acc: 0.9557 | Grad Norm: 1.7259 | Noise: 13.3697 | SNR: 0.1291 | ε: 4.38 (δ=7.6e-08) | Time: 43.22s
+2025-03-03 21:03:16,527 - INFO - P2 (Round 3) - Epoch 8/10 | Loss: 0.2842 | Acc: 0.9566 | Val Loss: 0.2867 | Val Acc: 0.9562 | Grad Norm: 1.7541 | Noise: 13.3697 | SNR: 0.1312 | ε: 4.45 (δ=7.6e-08) | Time: 44.10s
+2025-03-03 21:04:00,728 - INFO - P2 (Round 3) - Epoch 9/10 | Loss: 0.2813 | Acc: 0.9580 | Val Loss: 0.2800 | Val Acc: 0.9584 | Grad Norm: 1.7625 | Noise: 13.3697 | SNR: 0.1318 | ε: 4.52 (δ=7.6e-08) | Time: 43.75s
+2025-03-03 21:04:44,383 - INFO - P2 (Round 3) - Epoch 10/10 | Loss: 0.2684 | Acc: 0.9594 | Val Loss: 0.2717 | Val Acc: 0.9589 | Grad Norm: 1.7826 | Noise: 13.3697 | SNR: 0.1333 | ε: 4.58 (δ=7.6e-08) | Time: 43.18s
+2025-03-03 21:04:44,384 - INFO - P2 (Round 3) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 21:04:44,384 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 0.8082
+2025-03-03 21:04:44,384 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 13.7383
+2025-03-03 21:04:44,385 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 21:04:46,431 - INFO - Round 3/10 completed in 925.31s
+2025-03-03 21:04:46,431 - INFO - Global Model - P1 Test: Loss = 0.2828, Accuracy = 0.9584
+2025-03-03 21:04:46,431 - INFO - Global Model - P2 Test: Loss = 0.2815, Accuracy = 0.9576
+2025-03-03 21:04:46,431 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 21:04:46,431 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 21:04:46,431 - INFO - Starting Round 4/10
+2025-03-03 21:04:46,432 - INFO - Training client P1 (Round 4) with noise_multiplier=1.0
+2025-03-03 21:04:46,432 - INFO - P1 (Round 4) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 21:05:30,735 - INFO - P1 (Round 4) - Epoch 1/10 | Loss: 0.2778 | Acc: 0.9582 | Val Loss: 0.2863 | Val Acc: 0.9580 | Grad Norm: 1.7801 | Noise: 26.7395 | SNR: 0.0666 | ε: 0.09 (δ=7.6e-08) | Time: 44.23s
+2025-03-03 21:06:13,380 - INFO - P1 (Round 4) - Epoch 2/10 | Loss: 0.2795 | Acc: 0.9579 | Val Loss: 0.2855 | Val Acc: 0.9589 | Grad Norm: 1.8296 | Noise: 26.7395 | SNR: 0.0684 | ε: 0.12 (δ=7.6e-08) | Time: 42.55s
+2025-03-03 21:06:56,400 - INFO - P1 (Round 4) - Epoch 3/10 | Loss: 0.2826 | Acc: 0.9586 | Val Loss: 0.2812 | Val Acc: 0.9594 | Grad Norm: 1.8583 | Noise: 26.7395 | SNR: 0.0695 | ε: 0.15 (δ=7.6e-08) | Time: 42.90s
+2025-03-03 21:07:39,397 - INFO - P1 (Round 4) - Epoch 4/10 | Loss: 0.2762 | Acc: 0.9591 | Val Loss: 0.2767 | Val Acc: 0.9591 | Grad Norm: 1.8849 | Noise: 26.7395 | SNR: 0.0705 | ε: 0.17 (δ=7.6e-08) | Time: 42.86s
+2025-03-03 21:08:23,124 - INFO - P1 (Round 4) - Epoch 5/10 | Loss: 0.2676 | Acc: 0.9593 | Val Loss: 0.2760 | Val Acc: 0.9587 | Grad Norm: 1.8807 | Noise: 26.7395 | SNR: 0.0703 | ε: 0.19 (δ=7.6e-08) | Time: 43.57s
+2025-03-03 21:09:06,121 - INFO - P1 (Round 4) - Epoch 6/10 | Loss: 0.2677 | Acc: 0.9597 | Val Loss: 0.2704 | Val Acc: 0.9598 | Grad Norm: 1.8955 | Noise: 26.7395 | SNR: 0.0709 | ε: 0.21 (δ=7.6e-08) | Time: 42.84s
+2025-03-03 21:09:49,203 - INFO - P1 (Round 4) - Epoch 7/10 | Loss: 0.2660 | Acc: 0.9602 | Val Loss: 0.2761 | Val Acc: 0.9610 | Grad Norm: 1.9487 | Noise: 26.7395 | SNR: 0.0729 | ε: 0.23 (δ=7.6e-08) | Time: 42.89s
+2025-03-03 21:10:32,774 - INFO - P1 (Round 4) - Epoch 8/10 | Loss: 0.2700 | Acc: 0.9603 | Val Loss: 0.2719 | Val Acc: 0.9610 | Grad Norm: 1.9813 | Noise: 26.7395 | SNR: 0.0741 | ε: 0.24 (δ=7.6e-08) | Time: 43.38s
+2025-03-03 21:11:15,636 - INFO - P1 (Round 4) - Epoch 9/10 | Loss: 0.2735 | Acc: 0.9609 | Val Loss: 0.2795 | Val Acc: 0.9605 | Grad Norm: 2.0111 | Noise: 26.7395 | SNR: 0.0752 | ε: 0.26 (δ=7.6e-08) | Time: 42.67s
+2025-03-03 21:11:58,626 - INFO - P1 (Round 4) - Epoch 10/10 | Loss: 0.2694 | Acc: 0.9616 | Val Loss: 0.2800 | Val Acc: 0.9615 | Grad Norm: 2.0014 | Noise: 26.7395 | SNR: 0.0748 | ε: 0.27 (δ=7.6e-08) | Time: 42.76s
+2025-03-03 21:11:58,627 - INFO - P1 (Round 4) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 21:11:58,628 - INFO - Training client P2 (Round 4) with noise_multiplier=0.5
+2025-03-03 21:11:58,628 - INFO - P2 (Round 4) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 21:12:41,808 - INFO - P2 (Round 4) - Epoch 1/10 | Loss: 0.2765 | Acc: 0.9585 | Val Loss: 0.2760 | Val Acc: 0.9587 | Grad Norm: 1.8094 | Noise: 13.3697 | SNR: 0.1353 | ε: 3.53 (δ=7.6e-08) | Time: 43.01s
+2025-03-03 21:13:25,035 - INFO - P2 (Round 4) - Epoch 2/10 | Loss: 0.2748 | Acc: 0.9588 | Val Loss: 0.2685 | Val Acc: 0.9597 | Grad Norm: 1.8731 | Noise: 13.3697 | SNR: 0.1401 | ε: 3.81 (δ=7.6e-08) | Time: 43.02s
+2025-03-03 21:14:08,972 - INFO - P2 (Round 4) - Epoch 3/10 | Loss: 0.2733 | Acc: 0.9597 | Val Loss: 0.2720 | Val Acc: 0.9599 | Grad Norm: 1.8904 | Noise: 13.3697 | SNR: 0.1414 | ε: 3.98 (δ=7.6e-08) | Time: 43.68s
+2025-03-03 21:14:52,151 - INFO - P2 (Round 4) - Epoch 4/10 | Loss: 0.2597 | Acc: 0.9613 | Val Loss: 0.2636 | Val Acc: 0.9619 | Grad Norm: 1.8600 | Noise: 13.3697 | SNR: 0.1391 | ε: 4.10 (δ=7.6e-08) | Time: 42.91s
+2025-03-03 21:15:35,868 - INFO - P2 (Round 4) - Epoch 5/10 | Loss: 0.2589 | Acc: 0.9622 | Val Loss: 0.2577 | Val Acc: 0.9622 | Grad Norm: 1.8748 | Noise: 13.3697 | SNR: 0.1402 | ε: 4.21 (δ=7.6e-08) | Time: 43.41s
+2025-03-03 21:16:18,900 - INFO - P2 (Round 4) - Epoch 6/10 | Loss: 0.2555 | Acc: 0.9629 | Val Loss: 0.2467 | Val Acc: 0.9626 | Grad Norm: 1.8979 | Noise: 13.3697 | SNR: 0.1420 | ε: 4.30 (δ=7.6e-08) | Time: 42.81s
+2025-03-03 21:17:03,145 - INFO - P2 (Round 4) - Epoch 7/10 | Loss: 0.2533 | Acc: 0.9632 | Val Loss: 0.2507 | Val Acc: 0.9635 | Grad Norm: 1.9207 | Noise: 13.3697 | SNR: 0.1437 | ε: 4.38 (δ=7.6e-08) | Time: 43.88s
+2025-03-03 21:17:46,459 - INFO - P2 (Round 4) - Epoch 8/10 | Loss: 0.2492 | Acc: 0.9636 | Val Loss: 0.2519 | Val Acc: 0.9641 | Grad Norm: 1.9436 | Noise: 13.3697 | SNR: 0.1454 | ε: 4.45 (δ=7.6e-08) | Time: 42.86s
+2025-03-03 21:18:30,089 - INFO - P2 (Round 4) - Epoch 9/10 | Loss: 0.2437 | Acc: 0.9644 | Val Loss: 0.2459 | Val Acc: 0.9638 | Grad Norm: 1.9617 | Noise: 13.3697 | SNR: 0.1467 | ε: 4.52 (δ=7.6e-08) | Time: 43.19s
+2025-03-03 21:19:13,702 - INFO - P2 (Round 4) - Epoch 10/10 | Loss: 0.2403 | Acc: 0.9646 | Val Loss: 0.2387 | Val Acc: 0.9643 | Grad Norm: 1.9763 | Noise: 13.3697 | SNR: 0.1478 | ε: 4.58 (δ=7.6e-08) | Time: 43.14s
+2025-03-03 21:19:13,703 - INFO - P2 (Round 4) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 21:19:13,703 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 1.0776
+2025-03-03 21:19:13,703 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 18.3177
+2025-03-03 21:19:13,703 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 21:19:15,882 - INFO - Round 4/10 completed in 869.45s
+2025-03-03 21:19:15,882 - INFO - Global Model - P1 Test: Loss = 0.2523, Accuracy = 0.9643
+2025-03-03 21:19:15,882 - INFO - Global Model - P2 Test: Loss = 0.2469, Accuracy = 0.9639
+2025-03-03 21:19:15,882 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 21:19:15,882 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 21:19:15,883 - INFO - Starting Round 5/10
+2025-03-03 21:19:15,884 - INFO - Training client P1 (Round 5) with noise_multiplier=1.0
+2025-03-03 21:19:15,884 - INFO - P1 (Round 5) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 21:19:59,120 - INFO - P1 (Round 5) - Epoch 1/10 | Loss: 0.2454 | Acc: 0.9642 | Val Loss: 0.2632 | Val Acc: 0.9640 | Grad Norm: 1.9943 | Noise: 26.7395 | SNR: 0.0746 | ε: 0.09 (δ=7.6e-08) | Time: 43.17s
+2025-03-03 21:20:41,623 - INFO - P1 (Round 5) - Epoch 2/10 | Loss: 0.2499 | Acc: 0.9638 | Val Loss: 0.2558 | Val Acc: 0.9641 | Grad Norm: 2.0440 | Noise: 26.7395 | SNR: 0.0764 | ε: 0.12 (δ=7.6e-08) | Time: 42.40s
+2025-03-03 21:21:25,707 - INFO - P1 (Round 5) - Epoch 3/10 | Loss: 0.2550 | Acc: 0.9635 | Val Loss: 0.2576 | Val Acc: 0.9641 | Grad Norm: 2.0885 | Noise: 26.7395 | SNR: 0.0781 | ε: 0.15 (δ=7.6e-08) | Time: 43.96s
+2025-03-03 21:22:09,082 - INFO - P1 (Round 5) - Epoch 4/10 | Loss: 0.2495 | Acc: 0.9640 | Val Loss: 0.2514 | Val Acc: 0.9639 | Grad Norm: 2.0887 | Noise: 26.7395 | SNR: 0.0781 | ε: 0.17 (δ=7.6e-08) | Time: 43.24s
+2025-03-03 21:22:51,938 - INFO - P1 (Round 5) - Epoch 5/10 | Loss: 0.2406 | Acc: 0.9639 | Val Loss: 0.2548 | Val Acc: 0.9631 | Grad Norm: 2.0663 | Noise: 26.7395 | SNR: 0.0773 | ε: 0.19 (δ=7.6e-08) | Time: 42.70s
+2025-03-03 21:23:35,412 - INFO - P1 (Round 5) - Epoch 6/10 | Loss: 0.2483 | Acc: 0.9637 | Val Loss: 0.2514 | Val Acc: 0.9634 | Grad Norm: 2.0947 | Noise: 26.7395 | SNR: 0.0783 | ε: 0.21 (δ=7.6e-08) | Time: 43.32s
+2025-03-03 21:24:18,380 - INFO - P1 (Round 5) - Epoch 7/10 | Loss: 0.2451 | Acc: 0.9645 | Val Loss: 0.2586 | Val Acc: 0.9641 | Grad Norm: 2.1647 | Noise: 26.7395 | SNR: 0.0810 | ε: 0.23 (δ=7.6e-08) | Time: 42.79s
+2025-03-03 21:25:01,620 - INFO - P1 (Round 5) - Epoch 8/10 | Loss: 0.2502 | Acc: 0.9640 | Val Loss: 0.2438 | Val Acc: 0.9648 | Grad Norm: 2.2083 | Noise: 26.7395 | SNR: 0.0826 | ε: 0.24 (δ=7.6e-08) | Time: 43.05s
+2025-03-03 21:25:44,969 - INFO - P1 (Round 5) - Epoch 9/10 | Loss: 0.2496 | Acc: 0.9642 | Val Loss: 0.2663 | Val Acc: 0.9635 | Grad Norm: 2.2127 | Noise: 26.7395 | SNR: 0.0828 | ε: 0.26 (δ=7.6e-08) | Time: 43.16s
+2025-03-03 21:26:28,518 - INFO - P1 (Round 5) - Epoch 10/10 | Loss: 0.2518 | Acc: 0.9652 | Val Loss: 0.2725 | Val Acc: 0.9652 | Grad Norm: 2.2282 | Noise: 26.7395 | SNR: 0.0833 | ε: 0.27 (δ=7.6e-08) | Time: 43.33s
+2025-03-03 21:26:28,519 - INFO - P1 (Round 5) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 21:26:28,519 - INFO - Training client P2 (Round 5) with noise_multiplier=0.5
+2025-03-03 21:26:28,519 - INFO - P2 (Round 5) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 21:27:12,310 - INFO - P2 (Round 5) - Epoch 1/10 | Loss: 0.2464 | Acc: 0.9645 | Val Loss: 0.2471 | Val Acc: 0.9644 | Grad Norm: 2.0063 | Noise: 13.3697 | SNR: 0.1501 | ε: 3.53 (δ=7.6e-08) | Time: 43.62s
+2025-03-03 21:27:55,391 - INFO - P2 (Round 5) - Epoch 2/10 | Loss: 0.2397 | Acc: 0.9653 | Val Loss: 0.2464 | Val Acc: 0.9647 | Grad Norm: 2.0021 | Noise: 13.3697 | SNR: 0.1498 | ε: 3.81 (δ=7.6e-08) | Time: 42.88s
+2025-03-03 21:28:38,341 - INFO - P2 (Round 5) - Epoch 3/10 | Loss: 0.2396 | Acc: 0.9654 | Val Loss: 0.2401 | Val Acc: 0.9654 | Grad Norm: 2.0327 | Noise: 13.3697 | SNR: 0.1520 | ε: 3.98 (δ=7.6e-08) | Time: 42.69s
+2025-03-03 21:29:22,452 - INFO - P2 (Round 5) - Epoch 4/10 | Loss: 0.2375 | Acc: 0.9656 | Val Loss: 0.2361 | Val Acc: 0.9655 | Grad Norm: 2.0329 | Noise: 13.3697 | SNR: 0.1521 | ε: 4.10 (δ=7.6e-08) | Time: 43.84s
+2025-03-03 21:30:06,001 - INFO - P2 (Round 5) - Epoch 5/10 | Loss: 0.2435 | Acc: 0.9661 | Val Loss: 0.2337 | Val Acc: 0.9662 | Grad Norm: 2.0230 | Noise: 13.3697 | SNR: 0.1513 | ε: 4.21 (δ=7.6e-08) | Time: 43.19s
+2025-03-03 21:30:49,306 - INFO - P2 (Round 5) - Epoch 6/10 | Loss: 0.2373 | Acc: 0.9662 | Val Loss: 0.2336 | Val Acc: 0.9665 | Grad Norm: 2.0520 | Noise: 13.3697 | SNR: 0.1535 | ε: 4.30 (δ=7.6e-08) | Time: 43.09s
+2025-03-03 21:31:32,817 - INFO - P2 (Round 5) - Epoch 7/10 | Loss: 0.2351 | Acc: 0.9666 | Val Loss: 0.2348 | Val Acc: 0.9666 | Grad Norm: 2.0681 | Noise: 13.3697 | SNR: 0.1547 | ε: 4.38 (δ=7.6e-08) | Time: 43.14s
+2025-03-03 21:32:16,237 - INFO - P2 (Round 5) - Epoch 8/10 | Loss: 0.2366 | Acc: 0.9667 | Val Loss: 0.2392 | Val Acc: 0.9660 | Grad Norm: 2.0859 | Noise: 13.3697 | SNR: 0.1560 | ε: 4.45 (δ=7.6e-08) | Time: 43.03s
+2025-03-03 21:32:59,446 - INFO - P2 (Round 5) - Epoch 9/10 | Loss: 0.2335 | Acc: 0.9673 | Val Loss: 0.2265 | Val Acc: 0.9669 | Grad Norm: 2.1004 | Noise: 13.3697 | SNR: 0.1571 | ε: 4.52 (δ=7.6e-08) | Time: 42.67s
+2025-03-03 21:33:43,079 - INFO - P2 (Round 5) - Epoch 10/10 | Loss: 0.2301 | Acc: 0.9677 | Val Loss: 0.2219 | Val Acc: 0.9676 | Grad Norm: 2.0945 | Noise: 13.3697 | SNR: 0.1567 | ε: 4.58 (δ=7.6e-08) | Time: 43.16s
+2025-03-03 21:33:43,080 - INFO - P2 (Round 5) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 21:33:43,080 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 1.3471
+2025-03-03 21:33:43,080 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 22.8971
+2025-03-03 21:33:43,080 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 21:33:45,168 - INFO - Round 5/10 completed in 869.29s
+2025-03-03 21:33:45,168 - INFO - Global Model - P1 Test: Loss = 0.2395, Accuracy = 0.9666
+2025-03-03 21:33:45,168 - INFO - Global Model - P2 Test: Loss = 0.2312, Accuracy = 0.9665
+2025-03-03 21:33:45,168 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 21:33:45,168 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 21:33:45,168 - INFO - Starting Round 6/10
+2025-03-03 21:33:45,169 - INFO - Training client P1 (Round 6) with noise_multiplier=1.0
+2025-03-03 21:33:45,169 - INFO - P1 (Round 6) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 21:34:28,016 - INFO - P1 (Round 6) - Epoch 1/10 | Loss: 0.2379 | Acc: 0.9673 | Val Loss: 0.2514 | Val Acc: 0.9669 | Grad Norm: 2.1457 | Noise: 26.7395 | SNR: 0.0802 | ε: 0.09 (δ=7.6e-08) | Time: 42.77s
+2025-03-03 21:35:11,175 - INFO - P1 (Round 6) - Epoch 2/10 | Loss: 0.2415 | Acc: 0.9666 | Val Loss: 0.2503 | Val Acc: 0.9660 | Grad Norm: 2.2096 | Noise: 26.7395 | SNR: 0.0826 | ε: 0.12 (δ=7.6e-08) | Time: 43.07s
+2025-03-03 21:35:54,841 - INFO - P1 (Round 6) - Epoch 3/10 | Loss: 0.2424 | Acc: 0.9663 | Val Loss: 0.2509 | Val Acc: 0.9667 | Grad Norm: 2.2524 | Noise: 26.7395 | SNR: 0.0842 | ε: 0.15 (δ=7.6e-08) | Time: 43.54s
+2025-03-03 21:36:37,397 - INFO - P1 (Round 6) - Epoch 4/10 | Loss: 0.2385 | Acc: 0.9670 | Val Loss: 0.2465 | Val Acc: 0.9672 | Grad Norm: 2.2267 | Noise: 26.7395 | SNR: 0.0833 | ε: 0.17 (δ=7.6e-08) | Time: 42.42s
+2025-03-03 21:37:20,786 - INFO - P1 (Round 6) - Epoch 5/10 | Loss: 0.2329 | Acc: 0.9671 | Val Loss: 0.2464 | Val Acc: 0.9656 | Grad Norm: 2.1979 | Noise: 26.7395 | SNR: 0.0822 | ε: 0.19 (δ=7.6e-08) | Time: 43.23s
+2025-03-03 21:38:04,154 - INFO - P1 (Round 6) - Epoch 6/10 | Loss: 0.2392 | Acc: 0.9667 | Val Loss: 0.2474 | Val Acc: 0.9671 | Grad Norm: 2.2387 | Noise: 26.7395 | SNR: 0.0837 | ε: 0.21 (δ=7.6e-08) | Time: 43.21s
+2025-03-03 21:38:47,334 - INFO - P1 (Round 6) - Epoch 7/10 | Loss: 0.2421 | Acc: 0.9673 | Val Loss: 0.2543 | Val Acc: 0.9663 | Grad Norm: 2.2584 | Noise: 26.7395 | SNR: 0.0845 | ε: 0.23 (δ=7.6e-08) | Time: 43.00s
+2025-03-03 21:39:30,543 - INFO - P1 (Round 6) - Epoch 8/10 | Loss: 0.2452 | Acc: 0.9661 | Val Loss: 0.2466 | Val Acc: 0.9671 | Grad Norm: 2.3620 | Noise: 26.7395 | SNR: 0.0883 | ε: 0.24 (δ=7.6e-08) | Time: 43.01s
+2025-03-03 21:40:13,541 - INFO - P1 (Round 6) - Epoch 9/10 | Loss: 0.2479 | Acc: 0.9666 | Val Loss: 0.2575 | Val Acc: 0.9667 | Grad Norm: 2.3749 | Noise: 26.7395 | SNR: 0.0888 | ε: 0.26 (δ=7.6e-08) | Time: 42.80s
+2025-03-03 21:40:56,583 - INFO - P1 (Round 6) - Epoch 10/10 | Loss: 0.2517 | Acc: 0.9670 | Val Loss: 0.2643 | Val Acc: 0.9663 | Grad Norm: 2.3862 | Noise: 26.7395 | SNR: 0.0892 | ε: 0.27 (δ=7.6e-08) | Time: 42.81s
+2025-03-03 21:40:56,584 - INFO - P1 (Round 6) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 21:40:56,584 - INFO - Training client P2 (Round 6) with noise_multiplier=0.5
+2025-03-03 21:40:56,584 - INFO - P2 (Round 6) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 21:41:39,401 - INFO - P2 (Round 6) - Epoch 1/10 | Loss: 0.2349 | Acc: 0.9675 | Val Loss: 0.2335 | Val Acc: 0.9688 | Grad Norm: 2.1368 | Noise: 13.3697 | SNR: 0.1598 | ε: 3.53 (δ=7.6e-08) | Time: 42.64s
+2025-03-03 21:42:22,141 - INFO - P2 (Round 6) - Epoch 2/10 | Loss: 0.2395 | Acc: 0.9678 | Val Loss: 0.2274 | Val Acc: 0.9685 | Grad Norm: 2.1682 | Noise: 13.3697 | SNR: 0.1622 | ε: 3.81 (δ=7.6e-08) | Time: 42.54s
+2025-03-03 21:43:05,543 - INFO - P2 (Round 6) - Epoch 3/10 | Loss: 0.2306 | Acc: 0.9687 | Val Loss: 0.2253 | Val Acc: 0.9689 | Grad Norm: 2.1370 | Noise: 13.3697 | SNR: 0.1598 | ε: 3.98 (δ=7.6e-08) | Time: 43.14s
+2025-03-03 21:43:48,769 - INFO - P2 (Round 6) - Epoch 4/10 | Loss: 0.2323 | Acc: 0.9689 | Val Loss: 0.2272 | Val Acc: 0.9699 | Grad Norm: 2.1454 | Noise: 13.3697 | SNR: 0.1605 | ε: 4.10 (δ=7.6e-08) | Time: 42.96s
+2025-03-03 21:44:32,940 - INFO - P2 (Round 6) - Epoch 5/10 | Loss: 0.2288 | Acc: 0.9694 | Val Loss: 0.2262 | Val Acc: 0.9700 | Grad Norm: 2.1143 | Noise: 13.3697 | SNR: 0.1581 | ε: 4.21 (δ=7.6e-08) | Time: 43.82s
+2025-03-03 21:45:15,761 - INFO - P2 (Round 6) - Epoch 6/10 | Loss: 0.2288 | Acc: 0.9692 | Val Loss: 0.2299 | Val Acc: 0.9695 | Grad Norm: 2.1651 | Noise: 13.3697 | SNR: 0.1619 | ε: 4.30 (δ=7.6e-08) | Time: 42.60s
+2025-03-03 21:45:59,033 - INFO - P2 (Round 6) - Epoch 7/10 | Loss: 0.2324 | Acc: 0.9698 | Val Loss: 0.2279 | Val Acc: 0.9698 | Grad Norm: 2.1669 | Noise: 13.3697 | SNR: 0.1621 | ε: 4.38 (δ=7.6e-08) | Time: 42.83s
+2025-03-03 21:46:42,103 - INFO - P2 (Round 6) - Epoch 8/10 | Loss: 0.2294 | Acc: 0.9699 | Val Loss: 0.2326 | Val Acc: 0.9694 | Grad Norm: 2.1811 | Noise: 13.3697 | SNR: 0.1631 | ε: 4.45 (δ=7.6e-08) | Time: 42.67s
+2025-03-03 21:47:25,650 - INFO - P2 (Round 6) - Epoch 9/10 | Loss: 0.2238 | Acc: 0.9703 | Val Loss: 0.2272 | Val Acc: 0.9701 | Grad Norm: 2.1953 | Noise: 13.3697 | SNR: 0.1642 | ε: 4.52 (δ=7.6e-08) | Time: 43.02s
+2025-03-03 21:48:09,230 - INFO - P2 (Round 6) - Epoch 10/10 | Loss: 0.2301 | Acc: 0.9703 | Val Loss: 0.2225 | Val Acc: 0.9695 | Grad Norm: 2.2016 | Noise: 13.3697 | SNR: 0.1647 | ε: 4.58 (δ=7.6e-08) | Time: 43.11s
+2025-03-03 21:48:09,231 - INFO - P2 (Round 6) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 21:48:09,231 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 1.6165
+2025-03-03 21:48:09,231 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 27.4766
+2025-03-03 21:48:09,231 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 21:48:11,278 - INFO - Round 6/10 completed in 866.11s
+2025-03-03 21:48:11,279 - INFO - Global Model - P1 Test: Loss = 0.2389, Accuracy = 0.9683
+2025-03-03 21:48:11,279 - INFO - Global Model - P2 Test: Loss = 0.2285, Accuracy = 0.9685
+2025-03-03 21:48:11,279 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 21:48:11,279 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 21:48:11,279 - INFO - Starting Round 7/10
+2025-03-03 21:48:11,280 - INFO - Training client P1 (Round 7) with noise_multiplier=1.0
+2025-03-03 21:48:11,281 - INFO - P1 (Round 7) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 21:48:54,851 - INFO - P1 (Round 7) - Epoch 1/10 | Loss: 0.2361 | Acc: 0.9696 | Val Loss: 0.2521 | Val Acc: 0.9698 | Grad Norm: 2.2633 | Noise: 26.7395 | SNR: 0.0846 | ε: 0.09 (δ=7.6e-08) | Time: 43.50s
+2025-03-03 21:49:37,384 - INFO - P1 (Round 7) - Epoch 2/10 | Loss: 0.2442 | Acc: 0.9688 | Val Loss: 0.2469 | Val Acc: 0.9679 | Grad Norm: 2.3195 | Noise: 26.7395 | SNR: 0.0867 | ε: 0.12 (δ=7.6e-08) | Time: 42.44s
+2025-03-03 21:50:20,268 - INFO - P1 (Round 7) - Epoch 3/10 | Loss: 0.2479 | Acc: 0.9683 | Val Loss: 0.2501 | Val Acc: 0.9690 | Grad Norm: 2.3787 | Noise: 26.7395 | SNR: 0.0890 | ε: 0.15 (δ=7.6e-08) | Time: 42.76s
+2025-03-03 21:51:03,020 - INFO - P1 (Round 7) - Epoch 4/10 | Loss: 0.2390 | Acc: 0.9694 | Val Loss: 0.2545 | Val Acc: 0.9683 | Grad Norm: 2.3231 | Noise: 26.7395 | SNR: 0.0869 | ε: 0.17 (δ=7.6e-08) | Time: 42.62s
+2025-03-03 21:51:46,240 - INFO - P1 (Round 7) - Epoch 5/10 | Loss: 0.2367 | Acc: 0.9691 | Val Loss: 0.2490 | Val Acc: 0.9678 | Grad Norm: 2.3114 | Noise: 26.7395 | SNR: 0.0864 | ε: 0.19 (δ=7.6e-08) | Time: 43.07s
+2025-03-03 21:52:29,084 - INFO - P1 (Round 7) - Epoch 6/10 | Loss: 0.2480 | Acc: 0.9684 | Val Loss: 0.2554 | Val Acc: 0.9682 | Grad Norm: 2.3566 | Noise: 26.7395 | SNR: 0.0881 | ε: 0.21 (δ=7.6e-08) | Time: 42.69s
+2025-03-03 21:53:12,834 - INFO - P1 (Round 7) - Epoch 7/10 | Loss: 0.2479 | Acc: 0.9689 | Val Loss: 0.2585 | Val Acc: 0.9689 | Grad Norm: 2.3810 | Noise: 26.7395 | SNR: 0.0890 | ε: 0.23 (δ=7.6e-08) | Time: 43.57s
+2025-03-03 21:53:56,706 - INFO - P1 (Round 7) - Epoch 8/10 | Loss: 0.2518 | Acc: 0.9682 | Val Loss: 0.2541 | Val Acc: 0.9684 | Grad Norm: 2.4602 | Noise: 26.7395 | SNR: 0.0920 | ε: 0.24 (δ=7.6e-08) | Time: 43.69s
+2025-03-03 21:54:43,132 - INFO - P1 (Round 7) - Epoch 9/10 | Loss: 0.2505 | Acc: 0.9682 | Val Loss: 0.2669 | Val Acc: 0.9681 | Grad Norm: 2.5047 | Noise: 26.7395 | SNR: 0.0937 | ε: 0.26 (δ=7.6e-08) | Time: 46.21s
+2025-03-03 21:55:28,775 - INFO - P1 (Round 7) - Epoch 10/10 | Loss: 0.2506 | Acc: 0.9690 | Val Loss: 0.2671 | Val Acc: 0.9685 | Grad Norm: 2.5045 | Noise: 26.7395 | SNR: 0.0937 | ε: 0.27 (δ=7.6e-08) | Time: 45.42s
+2025-03-03 21:55:28,776 - INFO - P1 (Round 7) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 21:55:28,776 - INFO - Training client P2 (Round 7) with noise_multiplier=0.5
+2025-03-03 21:55:28,776 - INFO - P2 (Round 7) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 21:56:11,981 - INFO - P2 (Round 7) - Epoch 1/10 | Loss: 0.2331 | Acc: 0.9703 | Val Loss: 0.2354 | Val Acc: 0.9692 | Grad Norm: 2.2516 | Noise: 13.3697 | SNR: 0.1684 | ε: 3.53 (δ=7.6e-08) | Time: 43.03s
+2025-03-03 21:56:55,006 - INFO - P2 (Round 7) - Epoch 2/10 | Loss: 0.2295 | Acc: 0.9706 | Val Loss: 0.2283 | Val Acc: 0.9701 | Grad Norm: 2.2767 | Noise: 13.3697 | SNR: 0.1703 | ε: 3.81 (δ=7.6e-08) | Time: 42.82s
+2025-03-03 21:57:38,531 - INFO - P2 (Round 7) - Epoch 3/10 | Loss: 0.2421 | Acc: 0.9707 | Val Loss: 0.2311 | Val Acc: 0.9705 | Grad Norm: 2.2833 | Noise: 13.3697 | SNR: 0.1708 | ε: 3.98 (δ=7.6e-08) | Time: 43.26s
+2025-03-03 21:58:21,564 - INFO - P2 (Round 7) - Epoch 4/10 | Loss: 0.2324 | Acc: 0.9707 | Val Loss: 0.2302 | Val Acc: 0.9699 | Grad Norm: 2.2631 | Noise: 13.3697 | SNR: 0.1693 | ε: 4.10 (δ=7.6e-08) | Time: 42.76s
+2025-03-03 21:59:05,225 - INFO - P2 (Round 7) - Epoch 5/10 | Loss: 0.2343 | Acc: 0.9710 | Val Loss: 0.2313 | Val Acc: 0.9707 | Grad Norm: 2.2358 | Noise: 13.3697 | SNR: 0.1672 | ε: 4.21 (δ=7.6e-08) | Time: 43.35s
+2025-03-03 21:59:48,374 - INFO - P2 (Round 7) - Epoch 6/10 | Loss: 0.2382 | Acc: 0.9708 | Val Loss: 0.2353 | Val Acc: 0.9706 | Grad Norm: 2.3061 | Noise: 13.3697 | SNR: 0.1725 | ε: 4.30 (δ=7.6e-08) | Time: 42.93s
+2025-03-03 22:00:33,014 - INFO - P2 (Round 7) - Epoch 7/10 | Loss: 0.2353 | Acc: 0.9707 | Val Loss: 0.2300 | Val Acc: 0.9702 | Grad Norm: 2.3109 | Noise: 13.3697 | SNR: 0.1728 | ε: 4.38 (δ=7.6e-08) | Time: 44.27s
+2025-03-03 22:01:18,316 - INFO - P2 (Round 7) - Epoch 8/10 | Loss: 0.2374 | Acc: 0.9708 | Val Loss: 0.2355 | Val Acc: 0.9705 | Grad Norm: 2.3360 | Noise: 13.3697 | SNR: 0.1747 | ε: 4.45 (δ=7.6e-08) | Time: 44.90s
+2025-03-03 22:02:02,356 - INFO - P2 (Round 7) - Epoch 9/10 | Loss: 0.2410 | Acc: 0.9710 | Val Loss: 0.2377 | Val Acc: 0.9697 | Grad Norm: 2.3939 | Noise: 13.3697 | SNR: 0.1791 | ε: 4.52 (δ=7.6e-08) | Time: 43.59s
+2025-03-03 22:02:46,004 - INFO - P2 (Round 7) - Epoch 10/10 | Loss: 0.2353 | Acc: 0.9714 | Val Loss: 0.2315 | Val Acc: 0.9704 | Grad Norm: 2.3301 | Noise: 13.3697 | SNR: 0.1743 | ε: 4.58 (δ=7.6e-08) | Time: 43.18s
+2025-03-03 22:02:46,005 - INFO - P2 (Round 7) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 22:02:46,005 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 1.8859
+2025-03-03 22:02:46,005 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 32.0560
+2025-03-03 22:02:46,005 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 22:02:48,113 - INFO - Round 7/10 completed in 876.83s
+2025-03-03 22:02:48,113 - INFO - Global Model - P1 Test: Loss = 0.2433, Accuracy = 0.9712
+2025-03-03 22:02:48,113 - INFO - Global Model - P2 Test: Loss = 0.2329, Accuracy = 0.9709
+2025-03-03 22:02:48,113 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 22:02:48,113 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 22:02:48,113 - INFO - Starting Round 8/10
+2025-03-03 22:02:48,114 - INFO - Training client P1 (Round 8) with noise_multiplier=1.0
+2025-03-03 22:02:48,114 - INFO - P1 (Round 8) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 22:03:30,719 - INFO - P1 (Round 8) - Epoch 1/10 | Loss: 0.2444 | Acc: 0.9704 | Val Loss: 0.2622 | Val Acc: 0.9699 | Grad Norm: 2.4103 | Noise: 26.7395 | SNR: 0.0901 | ε: 0.09 (δ=7.6e-08) | Time: 42.53s
+2025-03-03 22:04:13,296 - INFO - P1 (Round 8) - Epoch 2/10 | Loss: 0.2485 | Acc: 0.9698 | Val Loss: 0.2498 | Val Acc: 0.9698 | Grad Norm: 2.4560 | Noise: 26.7395 | SNR: 0.0918 | ε: 0.12 (δ=7.6e-08) | Time: 42.48s
+2025-03-03 22:04:56,438 - INFO - P1 (Round 8) - Epoch 3/10 | Loss: 0.2489 | Acc: 0.9699 | Val Loss: 0.2581 | Val Acc: 0.9696 | Grad Norm: 2.4753 | Noise: 26.7395 | SNR: 0.0926 | ε: 0.15 (δ=7.6e-08) | Time: 43.01s
+2025-03-03 22:05:39,312 - INFO - P1 (Round 8) - Epoch 4/10 | Loss: 0.2495 | Acc: 0.9697 | Val Loss: 0.2572 | Val Acc: 0.9696 | Grad Norm: 2.4939 | Noise: 26.7395 | SNR: 0.0933 | ε: 0.17 (δ=7.6e-08) | Time: 42.74s
+2025-03-03 22:06:21,926 - INFO - P1 (Round 8) - Epoch 5/10 | Loss: 0.2425 | Acc: 0.9700 | Val Loss: 0.2652 | Val Acc: 0.9686 | Grad Norm: 2.4607 | Noise: 26.7395 | SNR: 0.0920 | ε: 0.19 (δ=7.6e-08) | Time: 42.45s
+2025-03-03 22:07:05,337 - INFO - P1 (Round 8) - Epoch 6/10 | Loss: 0.2505 | Acc: 0.9696 | Val Loss: 0.2588 | Val Acc: 0.9688 | Grad Norm: 2.4896 | Noise: 26.7395 | SNR: 0.0931 | ε: 0.21 (δ=7.6e-08) | Time: 43.25s
+2025-03-03 22:07:49,221 - INFO - P1 (Round 8) - Epoch 7/10 | Loss: 0.2529 | Acc: 0.9694 | Val Loss: 0.2642 | Val Acc: 0.9689 | Grad Norm: 2.5262 | Noise: 26.7395 | SNR: 0.0945 | ε: 0.23 (δ=7.6e-08) | Time: 43.70s
+2025-03-03 22:08:32,834 - INFO - P1 (Round 8) - Epoch 8/10 | Loss: 0.2547 | Acc: 0.9692 | Val Loss: 0.2565 | Val Acc: 0.9698 | Grad Norm: 2.5846 | Noise: 26.7395 | SNR: 0.0967 | ε: 0.24 (δ=7.6e-08) | Time: 43.43s
+2025-03-03 22:09:16,080 - INFO - P1 (Round 8) - Epoch 9/10 | Loss: 0.2552 | Acc: 0.9692 | Val Loss: 0.2732 | Val Acc: 0.9691 | Grad Norm: 2.6008 | Noise: 26.7395 | SNR: 0.0973 | ε: 0.26 (δ=7.6e-08) | Time: 43.05s
+2025-03-03 22:09:59,884 - INFO - P1 (Round 8) - Epoch 10/10 | Loss: 0.2626 | Acc: 0.9697 | Val Loss: 0.2702 | Val Acc: 0.9698 | Grad Norm: 2.6363 | Noise: 26.7395 | SNR: 0.0986 | ε: 0.27 (δ=7.6e-08) | Time: 43.58s
+2025-03-03 22:09:59,885 - INFO - P1 (Round 8) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 22:09:59,885 - INFO - Training client P2 (Round 8) with noise_multiplier=0.5
+2025-03-03 22:09:59,886 - INFO - P2 (Round 8) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 22:10:43,109 - INFO - P2 (Round 8) - Epoch 1/10 | Loss: 0.2450 | Acc: 0.9714 | Val Loss: 0.2440 | Val Acc: 0.9707 | Grad Norm: 2.3977 | Noise: 13.3697 | SNR: 0.1793 | ε: 3.53 (δ=7.6e-08) | Time: 43.05s
+2025-03-03 22:11:26,084 - INFO - P2 (Round 8) - Epoch 2/10 | Loss: 0.2394 | Acc: 0.9711 | Val Loss: 0.2334 | Val Acc: 0.9708 | Grad Norm: 2.4137 | Noise: 13.3697 | SNR: 0.1805 | ε: 3.81 (δ=7.6e-08) | Time: 42.78s
+2025-03-03 22:12:09,617 - INFO - P2 (Round 8) - Epoch 3/10 | Loss: 0.2442 | Acc: 0.9713 | Val Loss: 0.2378 | Val Acc: 0.9710 | Grad Norm: 2.4356 | Noise: 13.3697 | SNR: 0.1822 | ε: 3.98 (δ=7.6e-08) | Time: 43.27s
+2025-03-03 22:12:52,898 - INFO - P2 (Round 8) - Epoch 4/10 | Loss: 0.2396 | Acc: 0.9718 | Val Loss: 0.2365 | Val Acc: 0.9715 | Grad Norm: 2.4252 | Noise: 13.3697 | SNR: 0.1814 | ε: 4.10 (δ=7.6e-08) | Time: 43.01s
+2025-03-03 22:13:36,685 - INFO - P2 (Round 8) - Epoch 5/10 | Loss: 0.2410 | Acc: 0.9717 | Val Loss: 0.2434 | Val Acc: 0.9709 | Grad Norm: 2.4093 | Noise: 13.3697 | SNR: 0.1802 | ε: 4.21 (δ=7.6e-08) | Time: 43.47s
+2025-03-03 22:14:19,382 - INFO - P2 (Round 8) - Epoch 6/10 | Loss: 0.2410 | Acc: 0.9715 | Val Loss: 0.2434 | Val Acc: 0.9710 | Grad Norm: 2.4329 | Noise: 13.3697 | SNR: 0.1820 | ε: 4.30 (δ=7.6e-08) | Time: 42.48s
+2025-03-03 22:15:02,398 - INFO - P2 (Round 8) - Epoch 7/10 | Loss: 0.2454 | Acc: 0.9711 | Val Loss: 0.2415 | Val Acc: 0.9703 | Grad Norm: 2.4806 | Noise: 13.3697 | SNR: 0.1855 | ε: 4.38 (δ=7.6e-08) | Time: 42.65s
+2025-03-03 22:15:45,620 - INFO - P2 (Round 8) - Epoch 8/10 | Loss: 0.2431 | Acc: 0.9716 | Val Loss: 0.2475 | Val Acc: 0.9711 | Grad Norm: 2.4754 | Noise: 13.3697 | SNR: 0.1851 | ε: 4.45 (δ=7.6e-08) | Time: 42.82s
+2025-03-03 22:16:29,312 - INFO - P2 (Round 8) - Epoch 9/10 | Loss: 0.2417 | Acc: 0.9715 | Val Loss: 0.2394 | Val Acc: 0.9708 | Grad Norm: 2.5072 | Noise: 13.3697 | SNR: 0.1875 | ε: 4.52 (δ=7.6e-08) | Time: 43.25s
+2025-03-03 22:17:12,295 - INFO - P2 (Round 8) - Epoch 10/10 | Loss: 0.2479 | Acc: 0.9715 | Val Loss: 0.2438 | Val Acc: 0.9707 | Grad Norm: 2.5040 | Noise: 13.3697 | SNR: 0.1873 | ε: 4.58 (δ=7.6e-08) | Time: 42.51s
+2025-03-03 22:17:12,296 - INFO - P2 (Round 8) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 22:17:12,296 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 2.1553
+2025-03-03 22:17:12,296 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 36.6354
+2025-03-03 22:17:12,296 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 22:17:14,364 - INFO - Round 8/10 completed in 866.25s
+2025-03-03 22:17:14,364 - INFO - Global Model - P1 Test: Loss = 0.2533, Accuracy = 0.9707
+2025-03-03 22:17:14,364 - INFO - Global Model - P2 Test: Loss = 0.2430, Accuracy = 0.9706
+2025-03-03 22:17:14,364 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 22:17:14,364 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 22:17:14,364 - INFO - Starting Round 9/10
+2025-03-03 22:17:14,365 - INFO - Training client P1 (Round 9) with noise_multiplier=1.0
+2025-03-03 22:17:14,366 - INFO - P1 (Round 9) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 22:17:57,278 - INFO - P1 (Round 9) - Epoch 1/10 | Loss: 0.2534 | Acc: 0.9706 | Val Loss: 0.2697 | Val Acc: 0.9706 | Grad Norm: 2.5597 | Noise: 26.7395 | SNR: 0.0957 | ε: 0.09 (δ=7.6e-08) | Time: 42.84s
+2025-03-03 22:18:40,397 - INFO - P1 (Round 9) - Epoch 2/10 | Loss: 0.2567 | Acc: 0.9700 | Val Loss: 0.2604 | Val Acc: 0.9706 | Grad Norm: 2.6296 | Noise: 26.7395 | SNR: 0.0983 | ε: 0.12 (δ=7.6e-08) | Time: 43.02s
+2025-03-03 22:19:26,256 - INFO - P1 (Round 9) - Epoch 3/10 | Loss: 0.2596 | Acc: 0.9703 | Val Loss: 0.2725 | Val Acc: 0.9700 | Grad Norm: 2.6315 | Noise: 26.7395 | SNR: 0.0984 | ε: 0.15 (δ=7.6e-08) | Time: 45.73s
+2025-03-03 22:20:09,829 - INFO - P1 (Round 9) - Epoch 4/10 | Loss: 0.2600 | Acc: 0.9703 | Val Loss: 0.2668 | Val Acc: 0.9701 | Grad Norm: 2.6574 | Noise: 26.7395 | SNR: 0.0994 | ε: 0.17 (δ=7.6e-08) | Time: 43.44s
+2025-03-03 22:20:53,783 - INFO - P1 (Round 9) - Epoch 5/10 | Loss: 0.2562 | Acc: 0.9701 | Val Loss: 0.2654 | Val Acc: 0.9698 | Grad Norm: 2.6169 | Noise: 26.7395 | SNR: 0.0979 | ε: 0.19 (δ=7.6e-08) | Time: 43.80s
+2025-03-03 22:21:37,145 - INFO - P1 (Round 9) - Epoch 6/10 | Loss: 0.2677 | Acc: 0.9692 | Val Loss: 0.2681 | Val Acc: 0.9698 | Grad Norm: 2.6736 | Noise: 26.7395 | SNR: 0.1000 | ε: 0.21 (δ=7.6e-08) | Time: 43.20s
+2025-03-03 22:22:19,346 - INFO - P1 (Round 9) - Epoch 7/10 | Loss: 0.2617 | Acc: 0.9698 | Val Loss: 0.2753 | Val Acc: 0.9696 | Grad Norm: 2.6777 | Noise: 26.7395 | SNR: 0.1001 | ε: 0.23 (δ=7.6e-08) | Time: 42.02s
+2025-03-03 22:23:00,856 - INFO - P1 (Round 9) - Epoch 8/10 | Loss: 0.2650 | Acc: 0.9694 | Val Loss: 0.2678 | Val Acc: 0.9696 | Grad Norm: 2.7433 | Noise: 26.7395 | SNR: 0.1026 | ε: 0.24 (δ=7.6e-08) | Time: 41.32s
+2025-03-03 22:23:44,205 - INFO - P1 (Round 9) - Epoch 9/10 | Loss: 0.2621 | Acc: 0.9701 | Val Loss: 0.2856 | Val Acc: 0.9693 | Grad Norm: 2.7664 | Noise: 26.7395 | SNR: 0.1035 | ε: 0.26 (δ=7.6e-08) | Time: 43.14s
+2025-03-03 22:24:30,673 - INFO - P1 (Round 9) - Epoch 10/10 | Loss: 0.2754 | Acc: 0.9698 | Val Loss: 0.2826 | Val Acc: 0.9696 | Grad Norm: 2.7848 | Noise: 26.7395 | SNR: 0.1041 | ε: 0.27 (δ=7.6e-08) | Time: 46.24s
+2025-03-03 22:24:30,673 - INFO - P1 (Round 9) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 22:24:30,674 - INFO - Training client P2 (Round 9) with noise_multiplier=0.5
+2025-03-03 22:24:30,674 - INFO - P2 (Round 9) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 22:25:15,322 - INFO - P2 (Round 9) - Epoch 1/10 | Loss: 0.2440 | Acc: 0.9717 | Val Loss: 0.2522 | Val Acc: 0.9711 | Grad Norm: 2.5402 | Noise: 13.3697 | SNR: 0.1900 | ε: 3.53 (δ=7.6e-08) | Time: 44.47s
+2025-03-03 22:25:58,598 - INFO - P2 (Round 9) - Epoch 2/10 | Loss: 0.2507 | Acc: 0.9718 | Val Loss: 0.2429 | Val Acc: 0.9714 | Grad Norm: 2.5654 | Noise: 13.3697 | SNR: 0.1919 | ε: 3.81 (δ=7.6e-08) | Time: 43.08s
+2025-03-03 22:26:41,788 - INFO - P2 (Round 9) - Epoch 3/10 | Loss: 0.2563 | Acc: 0.9717 | Val Loss: 0.2454 | Val Acc: 0.9712 | Grad Norm: 2.5973 | Noise: 13.3697 | SNR: 0.1943 | ε: 3.98 (δ=7.6e-08) | Time: 42.93s
+2025-03-03 22:27:25,320 - INFO - P2 (Round 9) - Epoch 4/10 | Loss: 0.2454 | Acc: 0.9718 | Val Loss: 0.2425 | Val Acc: 0.9717 | Grad Norm: 2.5901 | Noise: 13.3697 | SNR: 0.1937 | ε: 4.10 (δ=7.6e-08) | Time: 43.26s
+2025-03-03 22:28:08,834 - INFO - P2 (Round 9) - Epoch 5/10 | Loss: 0.2528 | Acc: 0.9718 | Val Loss: 0.2476 | Val Acc: 0.9712 | Grad Norm: 2.5682 | Noise: 13.3697 | SNR: 0.1921 | ε: 4.21 (δ=7.6e-08) | Time: 43.14s
+2025-03-03 22:28:52,255 - INFO - P2 (Round 9) - Epoch 6/10 | Loss: 0.2537 | Acc: 0.9716 | Val Loss: 0.2531 | Val Acc: 0.9709 | Grad Norm: 2.6063 | Noise: 13.3697 | SNR: 0.1949 | ε: 4.30 (δ=7.6e-08) | Time: 43.16s
+2025-03-03 22:29:35,964 - INFO - P2 (Round 9) - Epoch 7/10 | Loss: 0.2610 | Acc: 0.9715 | Val Loss: 0.2474 | Val Acc: 0.9712 | Grad Norm: 2.6310 | Noise: 13.3697 | SNR: 0.1968 | ε: 4.38 (δ=7.6e-08) | Time: 43.30s
+2025-03-03 22:30:19,960 - INFO - P2 (Round 9) - Epoch 8/10 | Loss: 0.2524 | Acc: 0.9719 | Val Loss: 0.2607 | Val Acc: 0.9710 | Grad Norm: 2.6193 | Noise: 13.3697 | SNR: 0.1959 | ε: 4.45 (δ=7.6e-08) | Time: 43.60s
+2025-03-03 22:31:03,294 - INFO - P2 (Round 9) - Epoch 9/10 | Loss: 0.2518 | Acc: 0.9715 | Val Loss: 0.2558 | Val Acc: 0.9709 | Grad Norm: 2.6865 | Noise: 13.3697 | SNR: 0.2009 | ε: 4.52 (δ=7.6e-08) | Time: 42.89s
+2025-03-03 22:31:45,042 - INFO - P2 (Round 9) - Epoch 10/10 | Loss: 0.2591 | Acc: 0.9715 | Val Loss: 0.2545 | Val Acc: 0.9712 | Grad Norm: 2.6746 | Noise: 13.3697 | SNR: 0.2000 | ε: 4.58 (δ=7.6e-08) | Time: 41.27s
+2025-03-03 22:31:45,042 - INFO - P2 (Round 9) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 22:31:45,042 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 2.4247
+2025-03-03 22:31:45,042 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 41.2149
+2025-03-03 22:31:45,042 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 22:31:46,866 - INFO - Round 9/10 completed in 872.50s
+2025-03-03 22:31:46,866 - INFO - Global Model - P1 Test: Loss = 0.2635, Accuracy = 0.9714
+2025-03-03 22:31:46,866 - INFO - Global Model - P2 Test: Loss = 0.2534, Accuracy = 0.9713
+2025-03-03 22:31:46,866 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 22:31:46,866 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 22:31:46,866 - INFO - Starting Round 10/10
+2025-03-03 22:31:46,867 - INFO - Training client P1 (Round 10) with noise_multiplier=1.0
+2025-03-03 22:31:46,867 - INFO - P1 (Round 10) - DP setup: noise=1.0, max_grad_norm=1.0
+2025-03-03 22:32:29,852 - INFO - P1 (Round 10) - Epoch 1/10 | Loss: 0.2648 | Acc: 0.9710 | Val Loss: 0.2782 | Val Acc: 0.9709 | Grad Norm: 2.7133 | Noise: 26.7395 | SNR: 0.1015 | ε: 0.09 (δ=7.6e-08) | Time: 42.91s
+2025-03-03 22:33:13,315 - INFO - P1 (Round 10) - Epoch 2/10 | Loss: 0.2633 | Acc: 0.9703 | Val Loss: 0.2710 | Val Acc: 0.9708 | Grad Norm: 2.7776 | Noise: 26.7395 | SNR: 0.1039 | ε: 0.12 (δ=7.6e-08) | Time: 43.34s
+2025-03-03 22:33:57,063 - INFO - P1 (Round 10) - Epoch 3/10 | Loss: 0.2651 | Acc: 0.9707 | Val Loss: 0.2753 | Val Acc: 0.9709 | Grad Norm: 2.7830 | Noise: 26.7395 | SNR: 0.1041 | ε: 0.15 (δ=7.6e-08) | Time: 43.61s
+2025-03-03 22:34:39,907 - INFO - P1 (Round 10) - Epoch 4/10 | Loss: 0.2649 | Acc: 0.9704 | Val Loss: 0.2765 | Val Acc: 0.9701 | Grad Norm: 2.8100 | Noise: 26.7395 | SNR: 0.1051 | ε: 0.17 (δ=7.6e-08) | Time: 42.71s
+2025-03-03 22:35:24,057 - INFO - P1 (Round 10) - Epoch 5/10 | Loss: 0.2623 | Acc: 0.9700 | Val Loss: 0.2762 | Val Acc: 0.9694 | Grad Norm: 2.8212 | Noise: 26.7395 | SNR: 0.1055 | ε: 0.19 (δ=7.6e-08) | Time: 44.00s
+2025-03-03 22:36:07,408 - INFO - P1 (Round 10) - Epoch 6/10 | Loss: 0.2733 | Acc: 0.9696 | Val Loss: 0.2775 | Val Acc: 0.9695 | Grad Norm: 2.8713 | Noise: 26.7395 | SNR: 0.1074 | ε: 0.21 (δ=7.6e-08) | Time: 43.20s
+2025-03-03 22:36:50,337 - INFO - P1 (Round 10) - Epoch 7/10 | Loss: 0.2730 | Acc: 0.9698 | Val Loss: 0.2816 | Val Acc: 0.9700 | Grad Norm: 2.8621 | Noise: 26.7395 | SNR: 0.1070 | ε: 0.23 (δ=7.6e-08) | Time: 42.75s
+2025-03-03 22:37:34,138 - INFO - P1 (Round 10) - Epoch 8/10 | Loss: 0.2751 | Acc: 0.9696 | Val Loss: 0.2750 | Val Acc: 0.9696 | Grad Norm: 2.9494 | Noise: 26.7395 | SNR: 0.1103 | ε: 0.24 (δ=7.6e-08) | Time: 43.59s
+2025-03-03 22:38:17,393 - INFO - P1 (Round 10) - Epoch 9/10 | Loss: 0.2767 | Acc: 0.9695 | Val Loss: 0.2963 | Val Acc: 0.9693 | Grad Norm: 2.9767 | Noise: 26.7395 | SNR: 0.1113 | ε: 0.26 (δ=7.6e-08) | Time: 43.03s
+2025-03-03 22:39:00,859 - INFO - P1 (Round 10) - Epoch 10/10 | Loss: 0.2827 | Acc: 0.9695 | Val Loss: 0.2900 | Val Acc: 0.9697 | Grad Norm: 2.9928 | Noise: 26.7395 | SNR: 0.1119 | ε: 0.27 (δ=7.6e-08) | Time: 43.24s
+2025-03-03 22:39:00,859 - INFO - P1 (Round 10) - Final Privacy Budget: ε = 0.2694 (δ=7.6e-08)
+2025-03-03 22:39:00,860 - INFO - Training client P2 (Round 10) with noise_multiplier=0.5
+2025-03-03 22:39:00,861 - INFO - P2 (Round 10) - DP setup: noise=0.5, max_grad_norm=1.0
+2025-03-03 22:39:43,282 - INFO - P2 (Round 10) - Epoch 1/10 | Loss: 0.2579 | Acc: 0.9716 | Val Loss: 0.2595 | Val Acc: 0.9713 | Grad Norm: 2.7285 | Noise: 13.3697 | SNR: 0.2041 | ε: 3.53 (δ=7.6e-08) | Time: 42.25s
+2025-03-03 22:40:24,525 - INFO - P2 (Round 10) - Epoch 2/10 | Loss: 0.2619 | Acc: 0.9717 | Val Loss: 0.2566 | Val Acc: 0.9717 | Grad Norm: 2.7182 | Noise: 13.3697 | SNR: 0.2033 | ε: 3.81 (δ=7.6e-08) | Time: 41.04s
+2025-03-03 22:41:05,987 - INFO - P2 (Round 10) - Epoch 3/10 | Loss: 0.2645 | Acc: 0.9721 | Val Loss: 0.2559 | Val Acc: 0.9717 | Grad Norm: 2.7305 | Noise: 13.3697 | SNR: 0.2042 | ε: 3.98 (δ=7.6e-08) | Time: 41.20s
+2025-03-03 22:41:50,748 - INFO - P2 (Round 10) - Epoch 4/10 | Loss: 0.2605 | Acc: 0.9718 | Val Loss: 0.2506 | Val Acc: 0.9722 | Grad Norm: 2.7477 | Noise: 13.3697 | SNR: 0.2055 | ε: 4.10 (δ=7.6e-08) | Time: 44.47s
+2025-03-03 22:42:35,205 - INFO - P2 (Round 10) - Epoch 5/10 | Loss: 0.2533 | Acc: 0.9719 | Val Loss: 0.2561 | Val Acc: 0.9714 | Grad Norm: 2.7465 | Noise: 13.3697 | SNR: 0.2054 | ε: 4.21 (δ=7.6e-08) | Time: 44.15s
+2025-03-03 22:43:18,556 - INFO - P2 (Round 10) - Epoch 6/10 | Loss: 0.2642 | Acc: 0.9715 | Val Loss: 0.2562 | Val Acc: 0.9714 | Grad Norm: 2.7879 | Noise: 13.3697 | SNR: 0.2085 | ε: 4.30 (δ=7.6e-08) | Time: 43.13s
+2025-03-03 22:44:02,094 - INFO - P2 (Round 10) - Epoch 7/10 | Loss: 0.2612 | Acc: 0.9712 | Val Loss: 0.2663 | Val Acc: 0.9706 | Grad Norm: 2.8308 | Noise: 13.3697 | SNR: 0.2117 | ε: 4.38 (δ=7.6e-08) | Time: 43.17s
+2025-03-03 22:44:46,807 - INFO - P2 (Round 10) - Epoch 8/10 | Loss: 0.2613 | Acc: 0.9717 | Val Loss: 0.2597 | Val Acc: 0.9716 | Grad Norm: 2.7935 | Noise: 13.3697 | SNR: 0.2089 | ε: 4.45 (δ=7.6e-08) | Time: 44.31s
+2025-03-03 22:45:30,221 - INFO - P2 (Round 10) - Epoch 9/10 | Loss: 0.2690 | Acc: 0.9716 | Val Loss: 0.2624 | Val Acc: 0.9709 | Grad Norm: 2.8547 | Noise: 13.3697 | SNR: 0.2135 | ε: 4.52 (δ=7.6e-08) | Time: 42.88s
+2025-03-03 22:46:13,351 - INFO - P2 (Round 10) - Epoch 10/10 | Loss: 0.2639 | Acc: 0.9718 | Val Loss: 0.2617 | Val Acc: 0.9715 | Grad Norm: 2.8584 | Noise: 13.3697 | SNR: 0.2138 | ε: 4.58 (δ=7.6e-08) | Time: 42.65s
+2025-03-03 22:46:13,352 - INFO - P2 (Round 10) - Final Privacy Budget: ε = 4.5794 (δ=7.6e-08)
+2025-03-03 22:46:13,352 - INFO - P1 privacy budget: round ε = 0.2694, cumulative ε = 2.6941
+2025-03-03 22:46:13,352 - INFO - P2 privacy budget: round ε = 4.5794, cumulative ε = 45.7943
+2025-03-03 22:46:13,352 - INFO - Using secure aggregation with weights: P1=0.3333, P2=0.6667
+2025-03-03 22:46:15,334 - INFO - Round 10/10 completed in 868.47s
+2025-03-03 22:46:15,334 - INFO - Global Model - P1 Test: Loss = 0.2702, Accuracy = 0.9716
+2025-03-03 22:46:15,334 - INFO - Global Model - P2 Test: Loss = 0.2606, Accuracy = 0.9714
+2025-03-03 22:46:15,334 - INFO - P1 Privacy Budget: ε = 0.27
+2025-03-03 22:46:15,334 - INFO - P2 Privacy Budget: ε = 4.58
+2025-03-03 22:46:15,337 - INFO - Results saved to results/dp_experiments/results_p1_1.0_p2_0.5.json
+2025-03-03 22:46:15,353 - INFO - Differential Privacy Experiment completed successfully

@@ -1,0 +1,55 @@
+2025-03-04 16:53:25,229 - INFO - Starting feature suppression experiments
+2025-03-04 16:53:25,229 - INFO - Configuration: {
+  "experiment_name": "fl_experiment",
+  "experiment_type": "suppression",
+  "data_path": "datasets/dataset.parquet",
+  "p1_path": null,
+  "p2_path": null,
+  "feature_columns": [
+    "protocol",
+    "bidirectional_min_ps",
+    "bidirectional_mean_ps",
+    "bidirectional_stddev_ps",
+    "bidirectional_max_ps",
+    "src2dst_stddev_ps",
+    "src2dst_max_ps",
+    "dst2src_min_ps",
+    "dst2src_mean_ps",
+    "dst2src_stddev_ps",
+    "dst2src_max_ps",
+    "bidirectional_stddev_piat_ms",
+    "bidirectional_max_piat_ms",
+    "bidirectional_rst_packets"
+  ],
+  "target_column": "application_name",
+  "seed": 42,
+  "initial_split_ratio": 0.5,
+  "test_split_ratio": 0.1667,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "local_epochs": 100,
+  "federated_rounds": 10,
+  "client_epochs": 10,
+  "p1_features": null,
+  "p2_features": null,
+  "max_parallel_suppression_processes": 10,
+  "noise_multiplier_p1": null,
+  "noise_multiplier_p2": null,
+  "noise_multiplier_p1_explicitly_set": false,
+  "noise_multiplier_p2_explicitly_set": false,
+  "max_grad_norm": 1.0,
+  "max_epsilon": 10.0,
+  "max_parallel_dp_processes": 2,
+  "results_dir": "results",
+  "logs_dir": "logs",
+  "save_models": false,
+  "checkpoint_interval": 1
+}
+2025-03-04 16:53:25,234 - INFO - Preparing data (will be shared across experiments)...
+2025-03-04 16:53:25,234 - INFO - Loading pre-split datasets from datasets/p1.parquet and datasets/p2.parquet
+2025-03-04 16:53:26,634 - INFO - Running 196 suppression experiments
+2025-03-04 16:53:26,634 - INFO - Using 10 parallel processes (limited by max_parallel_suppression_processes=10)
+2025-03-05 05:53:11,804 - INFO - Final Combined Results Summary:
+2025-03-05 05:53:11,804 - INFO - Processed 196 suppression experiment combinations
+2025-03-05 05:53:12,088 - INFO - Final results saved to results/suppression_final_20250305_055311.json
+2025-03-05 05:53:12,090 - INFO - All suppression experiments completed in 46786.38s

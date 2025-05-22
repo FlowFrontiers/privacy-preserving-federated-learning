@@ -1,0 +1,237 @@
+2025-04-18 20:31:48,871 - INFO - Starting Suppression Experiment 142
+2025-04-18 20:31:48,871 - INFO - P1 Features (4/14): ['protocol', 'bidirectional_min_ps', 'bidirectional_mean_ps', 'bidirectional_stddev_ps']
+2025-04-18 20:31:48,871 - INFO - P2 Features (13/14): ['protocol', 'bidirectional_min_ps', 'bidirectional_mean_ps', 'bidirectional_stddev_ps', 'bidirectional_max_ps', 'src2dst_stddev_ps', 'src2dst_max_ps', 'dst2src_min_ps', 'dst2src_mean_ps', 'dst2src_stddev_ps', 'dst2src_max_ps', 'bidirectional_stddev_piat_ms', 'bidirectional_max_piat_ms']
+2025-04-18 20:32:01,193 - INFO - P1 (Round 1) - Epoch 1/10 | Loss: 0.1833 | Acc: 0.9488 | Val Loss: 0.0635 | Val Acc: 0.9811 | Time: 12.20s
+2025-04-18 20:32:13,168 - INFO - P1 (Round 1) - Epoch 2/10 | Loss: 0.0545 | Acc: 0.9834 | Val Loss: 0.0500 | Val Acc: 0.9848 | Time: 11.98s
+2025-04-18 20:32:25,333 - INFO - P1 (Round 1) - Epoch 3/10 | Loss: 0.0463 | Acc: 0.9858 | Val Loss: 0.0449 | Val Acc: 0.9862 | Time: 12.16s
+2025-04-18 20:32:38,382 - INFO - P1 (Round 1) - Epoch 4/10 | Loss: 0.0430 | Acc: 0.9867 | Val Loss: 0.0425 | Val Acc: 0.9867 | Time: 13.05s
+2025-04-18 20:32:50,806 - INFO - P1 (Round 1) - Epoch 5/10 | Loss: 0.0412 | Acc: 0.9870 | Val Loss: 0.0411 | Val Acc: 0.9872 | Time: 12.42s
+2025-04-18 20:33:02,685 - INFO - P1 (Round 1) - Epoch 6/10 | Loss: 0.0400 | Acc: 0.9872 | Val Loss: 0.0402 | Val Acc: 0.9870 | Time: 11.88s
+2025-04-18 20:33:14,655 - INFO - P1 (Round 1) - Epoch 7/10 | Loss: 0.0391 | Acc: 0.9874 | Val Loss: 0.0405 | Val Acc: 0.9875 | Time: 11.97s
+2025-04-18 20:33:26,470 - INFO - P1 (Round 1) - Epoch 8/10 | Loss: 0.0383 | Acc: 0.9875 | Val Loss: 0.0387 | Val Acc: 0.9879 | Time: 11.81s
+2025-04-18 20:33:38,815 - INFO - P1 (Round 1) - Epoch 9/10 | Loss: 0.0375 | Acc: 0.9877 | Val Loss: 0.0379 | Val Acc: 0.9877 | Time: 12.34s
+2025-04-18 20:33:51,590 - INFO - P1 (Round 1) - Epoch 10/10 | Loss: 0.0368 | Acc: 0.9878 | Val Loss: 0.0369 | Val Acc: 0.9884 | Time: 12.78s
+2025-04-18 20:34:03,729 - INFO - P2 (Round 1) - Epoch 1/10 | Loss: 0.3181 | Acc: 0.8715 | Val Loss: 0.2072 | Val Acc: 0.9198 | Time: 12.14s
+2025-04-18 20:34:15,623 - INFO - P2 (Round 1) - Epoch 2/10 | Loss: 0.1829 | Acc: 0.9288 | Val Loss: 0.1599 | Val Acc: 0.9387 | Time: 11.89s
+2025-04-18 20:34:27,341 - INFO - P2 (Round 1) - Epoch 3/10 | Loss: 0.1432 | Acc: 0.9474 | Val Loss: 0.1225 | Val Acc: 0.9581 | Time: 11.72s
+2025-04-18 20:34:39,123 - INFO - P2 (Round 1) - Epoch 4/10 | Loss: 0.1132 | Acc: 0.9610 | Val Loss: 0.1056 | Val Acc: 0.9630 | Time: 11.78s
+2025-04-18 20:34:51,503 - INFO - P2 (Round 1) - Epoch 5/10 | Loss: 0.0992 | Acc: 0.9661 | Val Loss: 0.0922 | Val Acc: 0.9684 | Time: 12.38s
+2025-04-18 20:35:04,299 - INFO - P2 (Round 1) - Epoch 6/10 | Loss: 0.0924 | Acc: 0.9682 | Val Loss: 0.0871 | Val Acc: 0.9700 | Time: 12.80s
+2025-04-18 20:35:16,451 - INFO - P2 (Round 1) - Epoch 7/10 | Loss: 0.0879 | Acc: 0.9696 | Val Loss: 0.0861 | Val Acc: 0.9720 | Time: 12.15s
+2025-04-18 20:35:28,537 - INFO - P2 (Round 1) - Epoch 8/10 | Loss: 0.0846 | Acc: 0.9706 | Val Loss: 0.0814 | Val Acc: 0.9725 | Time: 12.09s
+2025-04-18 20:35:40,077 - INFO - P2 (Round 1) - Epoch 9/10 | Loss: 0.0822 | Acc: 0.9714 | Val Loss: 0.0792 | Val Acc: 0.9727 | Time: 11.54s
+2025-04-18 20:35:51,814 - INFO - P2 (Round 1) - Epoch 10/10 | Loss: 0.0808 | Acc: 0.9718 | Val Loss: 0.0813 | Val Acc: 0.9725 | Time: 11.74s
+2025-04-18 20:35:54,405 - INFO - Round 1 completed in 245.41s
+2025-04-18 20:35:54,406 - INFO - Global Model - P1 Test: Loss = 1.6947, Accuracy = 0.4679
+2025-04-18 20:35:54,406 - INFO - Global Model - P2 Test: Loss = 12.3179, Accuracy = 0.0035
+2025-04-18 20:36:07,132 - INFO - P1 (Round 2) - Epoch 1/10 | Loss: 0.0956 | Acc: 0.9731 | Val Loss: 0.0495 | Val Acc: 0.9858 | Time: 12.73s
+2025-04-18 20:36:19,654 - INFO - P1 (Round 2) - Epoch 2/10 | Loss: 0.0458 | Acc: 0.9866 | Val Loss: 0.0438 | Val Acc: 0.9869 | Time: 12.52s
+2025-04-18 20:36:31,621 - INFO - P1 (Round 2) - Epoch 3/10 | Loss: 0.0423 | Acc: 0.9875 | Val Loss: 0.0411 | Val Acc: 0.9881 | Time: 11.97s
+2025-04-18 20:36:43,411 - INFO - P1 (Round 2) - Epoch 4/10 | Loss: 0.0401 | Acc: 0.9880 | Val Loss: 0.0400 | Val Acc: 0.9880 | Time: 11.79s
+2025-04-18 20:36:55,746 - INFO - P1 (Round 2) - Epoch 5/10 | Loss: 0.0378 | Acc: 0.9882 | Val Loss: 0.0375 | Val Acc: 0.9884 | Time: 12.34s
+2025-04-18 20:37:08,127 - INFO - P1 (Round 2) - Epoch 6/10 | Loss: 0.0363 | Acc: 0.9882 | Val Loss: 0.0356 | Val Acc: 0.9885 | Time: 12.38s
+2025-04-18 20:37:21,302 - INFO - P1 (Round 2) - Epoch 7/10 | Loss: 0.0353 | Acc: 0.9883 | Val Loss: 0.0349 | Val Acc: 0.9886 | Time: 13.17s
+2025-04-18 20:37:33,359 - INFO - P1 (Round 2) - Epoch 8/10 | Loss: 0.0344 | Acc: 0.9885 | Val Loss: 0.0344 | Val Acc: 0.9886 | Time: 12.06s
+2025-04-18 20:37:45,289 - INFO - P1 (Round 2) - Epoch 9/10 | Loss: 0.0336 | Acc: 0.9888 | Val Loss: 0.0334 | Val Acc: 0.9886 | Time: 11.93s
+2025-04-18 20:37:57,290 - INFO - P1 (Round 2) - Epoch 10/10 | Loss: 0.0327 | Acc: 0.9890 | Val Loss: 0.0326 | Val Acc: 0.9890 | Time: 12.00s
+2025-04-18 20:38:08,969 - INFO - P2 (Round 2) - Epoch 1/10 | Loss: 0.3939 | Acc: 0.8726 | Val Loss: 0.2147 | Val Acc: 0.9154 | Time: 11.68s
+2025-04-18 20:38:20,304 - INFO - P2 (Round 2) - Epoch 2/10 | Loss: 0.1886 | Acc: 0.9260 | Val Loss: 0.1459 | Val Acc: 0.9461 | Time: 11.34s
+2025-04-18 20:38:32,011 - INFO - P2 (Round 2) - Epoch 3/10 | Loss: 0.1097 | Acc: 0.9610 | Val Loss: 0.0940 | Val Acc: 0.9679 | Time: 11.71s
+2025-04-18 20:38:42,021 - INFO - P2 (Round 2) - Epoch 4/10 | Loss: 0.0901 | Acc: 0.9686 | Val Loss: 0.0858 | Val Acc: 0.9702 | Time: 10.01s
+2025-04-18 20:38:51,893 - INFO - P2 (Round 2) - Epoch 5/10 | Loss: 0.0846 | Acc: 0.9707 | Val Loss: 0.0832 | Val Acc: 0.9721 | Time: 9.87s
+2025-04-18 20:39:01,929 - INFO - P2 (Round 2) - Epoch 6/10 | Loss: 0.0811 | Acc: 0.9718 | Val Loss: 0.0794 | Val Acc: 0.9731 | Time: 10.04s
+2025-04-18 20:39:11,797 - INFO - P2 (Round 2) - Epoch 7/10 | Loss: 0.0782 | Acc: 0.9728 | Val Loss: 0.0772 | Val Acc: 0.9747 | Time: 9.87s
+2025-04-18 20:39:21,389 - INFO - P2 (Round 2) - Epoch 8/10 | Loss: 0.0761 | Acc: 0.9736 | Val Loss: 0.0769 | Val Acc: 0.9723 | Time: 9.59s
+2025-04-18 20:39:31,338 - INFO - P2 (Round 2) - Epoch 9/10 | Loss: 0.0743 | Acc: 0.9743 | Val Loss: 0.0738 | Val Acc: 0.9757 | Time: 9.95s
+2025-04-18 20:39:43,234 - INFO - P2 (Round 2) - Epoch 10/10 | Loss: 0.0728 | Acc: 0.9749 | Val Loss: 0.0710 | Val Acc: 0.9762 | Time: 11.90s
+2025-04-18 20:39:45,641 - INFO - Round 2 completed in 231.24s
+2025-04-18 20:39:45,641 - INFO - Global Model - P1 Test: Loss = 2.2172, Accuracy = 0.5707
+2025-04-18 20:39:45,641 - INFO - Global Model - P2 Test: Loss = 4.2265, Accuracy = 0.5151
+2025-04-18 20:39:55,684 - INFO - P1 (Round 3) - Epoch 1/10 | Loss: 0.0888 | Acc: 0.9758 | Val Loss: 0.0466 | Val Acc: 0.9864 | Time: 10.04s
+2025-04-18 20:40:05,827 - INFO - P1 (Round 3) - Epoch 2/10 | Loss: 0.0422 | Acc: 0.9873 | Val Loss: 0.0403 | Val Acc: 0.9871 | Time: 10.14s
+2025-04-18 20:40:15,912 - INFO - P1 (Round 3) - Epoch 3/10 | Loss: 0.0384 | Acc: 0.9878 | Val Loss: 0.0370 | Val Acc: 0.9877 | Time: 10.09s
+2025-04-18 20:40:26,070 - INFO - P1 (Round 3) - Epoch 4/10 | Loss: 0.0366 | Acc: 0.9879 | Val Loss: 0.0376 | Val Acc: 0.9880 | Time: 10.16s
+2025-04-18 20:40:36,396 - INFO - P1 (Round 3) - Epoch 5/10 | Loss: 0.0356 | Acc: 0.9880 | Val Loss: 0.0354 | Val Acc: 0.9878 | Time: 10.33s
+2025-04-18 20:40:46,833 - INFO - P1 (Round 3) - Epoch 6/10 | Loss: 0.0349 | Acc: 0.9882 | Val Loss: 0.0345 | Val Acc: 0.9882 | Time: 10.44s
+2025-04-18 20:40:58,983 - INFO - P1 (Round 3) - Epoch 7/10 | Loss: 0.0344 | Acc: 0.9885 | Val Loss: 0.0347 | Val Acc: 0.9881 | Time: 12.15s
+2025-04-18 20:41:09,204 - INFO - P1 (Round 3) - Epoch 8/10 | Loss: 0.0340 | Acc: 0.9886 | Val Loss: 0.0338 | Val Acc: 0.9884 | Time: 10.22s
+2025-04-18 20:41:19,354 - INFO - P1 (Round 3) - Epoch 9/10 | Loss: 0.0336 | Acc: 0.9888 | Val Loss: 0.0348 | Val Acc: 0.9880 | Time: 10.15s
+2025-04-18 20:41:29,448 - INFO - P1 (Round 3) - Epoch 10/10 | Loss: 0.0333 | Acc: 0.9889 | Val Loss: 0.0340 | Val Acc: 0.9891 | Time: 10.09s
+2025-04-18 20:41:39,097 - INFO - P2 (Round 3) - Epoch 1/10 | Loss: 0.1599 | Acc: 0.9502 | Val Loss: 0.0868 | Val Acc: 0.9707 | Time: 9.65s
+2025-04-18 20:41:49,005 - INFO - P2 (Round 3) - Epoch 2/10 | Loss: 0.0824 | Acc: 0.9719 | Val Loss: 0.0779 | Val Acc: 0.9743 | Time: 9.91s
+2025-04-18 20:41:59,113 - INFO - P2 (Round 3) - Epoch 3/10 | Loss: 0.0763 | Acc: 0.9739 | Val Loss: 0.0747 | Val Acc: 0.9744 | Time: 10.11s
+2025-04-18 20:42:10,362 - INFO - P2 (Round 3) - Epoch 4/10 | Loss: 0.0733 | Acc: 0.9749 | Val Loss: 0.0712 | Val Acc: 0.9761 | Time: 11.25s
+2025-04-18 20:42:20,465 - INFO - P2 (Round 3) - Epoch 5/10 | Loss: 0.0712 | Acc: 0.9756 | Val Loss: 0.0692 | Val Acc: 0.9767 | Time: 10.10s
+2025-04-18 20:42:30,186 - INFO - P2 (Round 3) - Epoch 6/10 | Loss: 0.0697 | Acc: 0.9763 | Val Loss: 0.0694 | Val Acc: 0.9764 | Time: 9.72s
+2025-04-18 20:42:39,869 - INFO - P2 (Round 3) - Epoch 7/10 | Loss: 0.0684 | Acc: 0.9768 | Val Loss: 0.0681 | Val Acc: 0.9781 | Time: 9.68s
+2025-04-18 20:42:49,833 - INFO - P2 (Round 3) - Epoch 8/10 | Loss: 0.0673 | Acc: 0.9773 | Val Loss: 0.0669 | Val Acc: 0.9774 | Time: 9.96s
+2025-04-18 20:42:59,622 - INFO - P2 (Round 3) - Epoch 9/10 | Loss: 0.0658 | Acc: 0.9778 | Val Loss: 0.0644 | Val Acc: 0.9789 | Time: 9.79s
+2025-04-18 20:43:09,776 - INFO - P2 (Round 3) - Epoch 10/10 | Loss: 0.0644 | Acc: 0.9785 | Val Loss: 0.0636 | Val Acc: 0.9794 | Time: 10.15s
+2025-04-18 20:43:12,538 - INFO - Round 3 completed in 206.90s
+2025-04-18 20:43:12,538 - INFO - Global Model - P1 Test: Loss = 3.1018, Accuracy = 0.6649
+2025-04-18 20:43:12,539 - INFO - Global Model - P2 Test: Loss = 2.0836, Accuracy = 0.5944
+2025-04-18 20:43:23,666 - INFO - P1 (Round 4) - Epoch 1/10 | Loss: 0.0815 | Acc: 0.9793 | Val Loss: 0.0489 | Val Acc: 0.9865 | Time: 11.13s
+2025-04-18 20:43:33,816 - INFO - P1 (Round 4) - Epoch 2/10 | Loss: 0.0426 | Acc: 0.9871 | Val Loss: 0.0391 | Val Acc: 0.9875 | Time: 10.15s
+2025-04-18 20:43:43,838 - INFO - P1 (Round 4) - Epoch 3/10 | Loss: 0.0375 | Acc: 0.9879 | Val Loss: 0.0365 | Val Acc: 0.9884 | Time: 10.02s
+2025-04-18 20:43:54,037 - INFO - P1 (Round 4) - Epoch 4/10 | Loss: 0.0360 | Acc: 0.9882 | Val Loss: 0.0362 | Val Acc: 0.9885 | Time: 10.20s
+2025-04-18 20:44:04,141 - INFO - P1 (Round 4) - Epoch 5/10 | Loss: 0.0351 | Acc: 0.9884 | Val Loss: 0.0350 | Val Acc: 0.9886 | Time: 10.10s
+2025-04-18 20:44:14,150 - INFO - P1 (Round 4) - Epoch 6/10 | Loss: 0.0344 | Acc: 0.9887 | Val Loss: 0.0345 | Val Acc: 0.9886 | Time: 10.01s
+2025-04-18 20:44:25,428 - INFO - P1 (Round 4) - Epoch 7/10 | Loss: 0.0338 | Acc: 0.9889 | Val Loss: 0.0340 | Val Acc: 0.9891 | Time: 11.28s
+2025-04-18 20:44:37,168 - INFO - P1 (Round 4) - Epoch 8/10 | Loss: 0.0334 | Acc: 0.9891 | Val Loss: 0.0340 | Val Acc: 0.9896 | Time: 11.74s
+2025-04-18 20:44:49,565 - INFO - P1 (Round 4) - Epoch 9/10 | Loss: 0.0331 | Acc: 0.9892 | Val Loss: 0.0333 | Val Acc: 0.9888 | Time: 12.40s
+2025-04-18 20:45:02,024 - INFO - P1 (Round 4) - Epoch 10/10 | Loss: 0.0328 | Acc: 0.9894 | Val Loss: 0.0326 | Val Acc: 0.9895 | Time: 12.46s
+2025-04-18 20:45:14,107 - INFO - P2 (Round 4) - Epoch 1/10 | Loss: 0.1066 | Acc: 0.9649 | Val Loss: 0.0780 | Val Acc: 0.9731 | Time: 12.08s
+2025-04-18 20:45:26,250 - INFO - P2 (Round 4) - Epoch 2/10 | Loss: 0.0759 | Acc: 0.9740 | Val Loss: 0.0750 | Val Acc: 0.9746 | Time: 12.14s
+2025-04-18 20:45:38,787 - INFO - P2 (Round 4) - Epoch 3/10 | Loss: 0.0704 | Acc: 0.9762 | Val Loss: 0.0664 | Val Acc: 0.9785 | Time: 12.54s
+2025-04-18 20:45:50,721 - INFO - P2 (Round 4) - Epoch 4/10 | Loss: 0.0642 | Acc: 0.9786 | Val Loss: 0.0624 | Val Acc: 0.9788 | Time: 11.93s
+2025-04-18 20:46:02,482 - INFO - P2 (Round 4) - Epoch 5/10 | Loss: 0.0611 | Acc: 0.9796 | Val Loss: 0.0592 | Val Acc: 0.9804 | Time: 11.76s
+2025-04-18 20:46:14,454 - INFO - P2 (Round 4) - Epoch 6/10 | Loss: 0.0589 | Acc: 0.9803 | Val Loss: 0.0582 | Val Acc: 0.9805 | Time: 11.97s
+2025-04-18 20:46:26,389 - INFO - P2 (Round 4) - Epoch 7/10 | Loss: 0.0576 | Acc: 0.9806 | Val Loss: 0.0563 | Val Acc: 0.9810 | Time: 11.93s
+2025-04-18 20:46:38,379 - INFO - P2 (Round 4) - Epoch 8/10 | Loss: 0.0565 | Acc: 0.9810 | Val Loss: 0.0551 | Val Acc: 0.9817 | Time: 11.99s
+2025-04-18 20:46:50,698 - INFO - P2 (Round 4) - Epoch 9/10 | Loss: 0.0556 | Acc: 0.9812 | Val Loss: 0.0541 | Val Acc: 0.9816 | Time: 12.32s
+2025-04-18 20:47:02,791 - INFO - P2 (Round 4) - Epoch 10/10 | Loss: 0.0548 | Acc: 0.9813 | Val Loss: 0.0533 | Val Acc: 0.9815 | Time: 12.09s
+2025-04-18 20:47:05,470 - INFO - Round 4 completed in 232.93s
+2025-04-18 20:47:05,470 - INFO - Global Model - P1 Test: Loss = 7.0132, Accuracy = 0.3645
+2025-04-18 20:47:05,470 - INFO - Global Model - P2 Test: Loss = 2.0181, Accuracy = 0.6289
+2025-04-18 20:47:17,336 - INFO - P1 (Round 5) - Epoch 1/10 | Loss: 0.1006 | Acc: 0.9781 | Val Loss: 0.0416 | Val Acc: 0.9871 | Time: 11.87s
+2025-04-18 20:47:29,693 - INFO - P1 (Round 5) - Epoch 2/10 | Loss: 0.0366 | Acc: 0.9882 | Val Loss: 0.0347 | Val Acc: 0.9889 | Time: 12.36s
+2025-04-18 20:47:41,602 - INFO - P1 (Round 5) - Epoch 3/10 | Loss: 0.0338 | Acc: 0.9891 | Val Loss: 0.0329 | Val Acc: 0.9896 | Time: 11.91s
+2025-04-18 20:47:53,382 - INFO - P1 (Round 5) - Epoch 4/10 | Loss: 0.0321 | Acc: 0.9898 | Val Loss: 0.0315 | Val Acc: 0.9903 | Time: 11.78s
+2025-04-18 20:48:06,197 - INFO - P1 (Round 5) - Epoch 5/10 | Loss: 0.0299 | Acc: 0.9910 | Val Loss: 0.0315 | Val Acc: 0.9907 | Time: 12.82s
+2025-04-18 20:48:16,369 - INFO - P1 (Round 5) - Epoch 6/10 | Loss: 0.0285 | Acc: 0.9918 | Val Loss: 0.0286 | Val Acc: 0.9917 | Time: 10.17s
+2025-04-18 20:48:26,687 - INFO - P1 (Round 5) - Epoch 7/10 | Loss: 0.0276 | Acc: 0.9922 | Val Loss: 0.0280 | Val Acc: 0.9918 | Time: 10.32s
+2025-04-18 20:48:36,715 - INFO - P1 (Round 5) - Epoch 8/10 | Loss: 0.0270 | Acc: 0.9924 | Val Loss: 0.0266 | Val Acc: 0.9926 | Time: 10.03s
+2025-04-18 20:48:46,757 - INFO - P1 (Round 5) - Epoch 9/10 | Loss: 0.0267 | Acc: 0.9925 | Val Loss: 0.0271 | Val Acc: 0.9920 | Time: 10.04s
+2025-04-18 20:48:56,752 - INFO - P1 (Round 5) - Epoch 10/10 | Loss: 0.0264 | Acc: 0.9926 | Val Loss: 0.0260 | Val Acc: 0.9930 | Time: 9.99s
+2025-04-18 20:49:06,678 - INFO - P2 (Round 5) - Epoch 1/10 | Loss: 0.0923 | Acc: 0.9694 | Val Loss: 0.0641 | Val Acc: 0.9787 | Time: 9.93s
+2025-04-18 20:49:18,276 - INFO - P2 (Round 5) - Epoch 2/10 | Loss: 0.0622 | Acc: 0.9791 | Val Loss: 0.0588 | Val Acc: 0.9800 | Time: 11.60s
+2025-04-18 20:49:28,078 - INFO - P2 (Round 5) - Epoch 3/10 | Loss: 0.0585 | Acc: 0.9805 | Val Loss: 0.0586 | Val Acc: 0.9794 | Time: 9.80s
+2025-04-18 20:49:37,993 - INFO - P2 (Round 5) - Epoch 4/10 | Loss: 0.0562 | Acc: 0.9810 | Val Loss: 0.0540 | Val Acc: 0.9817 | Time: 9.91s
+2025-04-18 20:49:47,949 - INFO - P2 (Round 5) - Epoch 5/10 | Loss: 0.0547 | Acc: 0.9816 | Val Loss: 0.0552 | Val Acc: 0.9810 | Time: 9.96s
+2025-04-18 20:49:57,970 - INFO - P2 (Round 5) - Epoch 6/10 | Loss: 0.0539 | Acc: 0.9817 | Val Loss: 0.0523 | Val Acc: 0.9821 | Time: 10.02s
+2025-04-18 20:50:07,877 - INFO - P2 (Round 5) - Epoch 7/10 | Loss: 0.0532 | Acc: 0.9820 | Val Loss: 0.0515 | Val Acc: 0.9826 | Time: 9.91s
+2025-04-18 20:50:17,652 - INFO - P2 (Round 5) - Epoch 8/10 | Loss: 0.0524 | Acc: 0.9822 | Val Loss: 0.0512 | Val Acc: 0.9824 | Time: 9.78s
+2025-04-18 20:50:29,383 - INFO - P2 (Round 5) - Epoch 9/10 | Loss: 0.0519 | Acc: 0.9822 | Val Loss: 0.0504 | Val Acc: 0.9824 | Time: 11.73s
+2025-04-18 20:50:39,352 - INFO - P2 (Round 5) - Epoch 10/10 | Loss: 0.0515 | Acc: 0.9823 | Val Loss: 0.0503 | Val Acc: 0.9829 | Time: 9.97s
+2025-04-18 20:50:41,707 - INFO - Round 5 completed in 216.24s
+2025-04-18 20:50:41,707 - INFO - Global Model - P1 Test: Loss = 6.9590, Accuracy = 0.2786
+2025-04-18 20:50:41,707 - INFO - Global Model - P2 Test: Loss = 2.2328, Accuracy = 0.6488
+2025-04-18 20:50:51,712 - INFO - P1 (Round 6) - Epoch 1/10 | Loss: 0.0932 | Acc: 0.9810 | Val Loss: 0.0383 | Val Acc: 0.9885 | Time: 10.00s
+2025-04-18 20:51:02,138 - INFO - P1 (Round 6) - Epoch 2/10 | Loss: 0.0353 | Acc: 0.9895 | Val Loss: 0.0329 | Val Acc: 0.9908 | Time: 10.43s
+2025-04-18 20:51:12,248 - INFO - P1 (Round 6) - Epoch 3/10 | Loss: 0.0320 | Acc: 0.9911 | Val Loss: 0.0307 | Val Acc: 0.9911 | Time: 10.11s
+2025-04-18 20:51:22,301 - INFO - P1 (Round 6) - Epoch 4/10 | Loss: 0.0308 | Acc: 0.9917 | Val Loss: 0.0306 | Val Acc: 0.9918 | Time: 10.05s
+2025-04-18 20:51:33,348 - INFO - P1 (Round 6) - Epoch 5/10 | Loss: 0.0300 | Acc: 0.9920 | Val Loss: 0.0290 | Val Acc: 0.9923 | Time: 11.05s
+2025-04-18 20:51:44,721 - INFO - P1 (Round 6) - Epoch 6/10 | Loss: 0.0294 | Acc: 0.9922 | Val Loss: 0.0287 | Val Acc: 0.9926 | Time: 11.37s
+2025-04-18 20:51:54,906 - INFO - P1 (Round 6) - Epoch 7/10 | Loss: 0.0285 | Acc: 0.9924 | Val Loss: 0.0282 | Val Acc: 0.9920 | Time: 10.18s
+2025-04-18 20:52:05,290 - INFO - P1 (Round 6) - Epoch 8/10 | Loss: 0.0269 | Acc: 0.9925 | Val Loss: 0.0266 | Val Acc: 0.9926 | Time: 10.38s
+2025-04-18 20:52:15,312 - INFO - P1 (Round 6) - Epoch 9/10 | Loss: 0.0264 | Acc: 0.9927 | Val Loss: 0.0258 | Val Acc: 0.9932 | Time: 10.02s
+2025-04-18 20:52:25,340 - INFO - P1 (Round 6) - Epoch 10/10 | Loss: 0.0261 | Acc: 0.9927 | Val Loss: 0.0254 | Val Acc: 0.9929 | Time: 10.03s
+2025-04-18 20:52:35,056 - INFO - P2 (Round 6) - Epoch 1/10 | Loss: 0.0994 | Acc: 0.9659 | Val Loss: 0.0734 | Val Acc: 0.9741 | Time: 9.72s
+2025-04-18 20:52:45,846 - INFO - P2 (Round 6) - Epoch 2/10 | Loss: 0.0718 | Acc: 0.9748 | Val Loss: 0.0681 | Val Acc: 0.9764 | Time: 10.79s
+2025-04-18 20:52:56,623 - INFO - P2 (Round 6) - Epoch 3/10 | Loss: 0.0680 | Acc: 0.9761 | Val Loss: 0.0670 | Val Acc: 0.9764 | Time: 10.78s
+2025-04-18 20:53:06,580 - INFO - P2 (Round 6) - Epoch 4/10 | Loss: 0.0657 | Acc: 0.9768 | Val Loss: 0.0652 | Val Acc: 0.9776 | Time: 9.96s
+2025-04-18 20:53:16,541 - INFO - P2 (Round 6) - Epoch 5/10 | Loss: 0.0643 | Acc: 0.9774 | Val Loss: 0.0642 | Val Acc: 0.9773 | Time: 9.96s
+2025-04-18 20:53:26,331 - INFO - P2 (Round 6) - Epoch 6/10 | Loss: 0.0625 | Acc: 0.9782 | Val Loss: 0.0627 | Val Acc: 0.9785 | Time: 9.79s
+2025-04-18 20:53:36,310 - INFO - P2 (Round 6) - Epoch 7/10 | Loss: 0.0605 | Acc: 0.9791 | Val Loss: 0.0580 | Val Acc: 0.9800 | Time: 9.98s
+2025-04-18 20:53:46,400 - INFO - P2 (Round 6) - Epoch 8/10 | Loss: 0.0592 | Acc: 0.9795 | Val Loss: 0.0586 | Val Acc: 0.9803 | Time: 10.09s
+2025-04-18 20:53:56,870 - INFO - P2 (Round 6) - Epoch 9/10 | Loss: 0.0580 | Acc: 0.9800 | Val Loss: 0.0566 | Val Acc: 0.9801 | Time: 10.47s
+2025-04-18 20:54:07,700 - INFO - P2 (Round 6) - Epoch 10/10 | Loss: 0.0567 | Acc: 0.9805 | Val Loss: 0.0569 | Val Acc: 0.9804 | Time: 10.83s
+2025-04-18 20:54:09,871 - INFO - Round 6 completed in 208.16s
+2025-04-18 20:54:09,871 - INFO - Global Model - P1 Test: Loss = 6.1485, Accuracy = 0.2359
+2025-04-18 20:54:09,871 - INFO - Global Model - P2 Test: Loss = 3.1283, Accuracy = 0.7695
+2025-04-18 20:54:19,971 - INFO - P1 (Round 7) - Epoch 1/10 | Loss: 0.0746 | Acc: 0.9824 | Val Loss: 0.0345 | Val Acc: 0.9898 | Time: 10.10s
+2025-04-18 20:54:30,079 - INFO - P1 (Round 7) - Epoch 2/10 | Loss: 0.0326 | Acc: 0.9908 | Val Loss: 0.0308 | Val Acc: 0.9914 | Time: 10.11s
+2025-04-18 20:54:40,184 - INFO - P1 (Round 7) - Epoch 3/10 | Loss: 0.0309 | Acc: 0.9914 | Val Loss: 0.0303 | Val Acc: 0.9920 | Time: 10.10s
+2025-04-18 20:54:50,288 - INFO - P1 (Round 7) - Epoch 4/10 | Loss: 0.0299 | Acc: 0.9918 | Val Loss: 0.0287 | Val Acc: 0.9924 | Time: 10.10s
+2025-04-18 20:55:00,265 - INFO - P1 (Round 7) - Epoch 5/10 | Loss: 0.0292 | Acc: 0.9920 | Val Loss: 0.0294 | Val Acc: 0.9918 | Time: 9.98s
+2025-04-18 20:55:11,824 - INFO - P1 (Round 7) - Epoch 6/10 | Loss: 0.0287 | Acc: 0.9921 | Val Loss: 0.0301 | Val Acc: 0.9919 | Time: 11.56s
+2025-04-18 20:55:22,330 - INFO - P1 (Round 7) - Epoch 7/10 | Loss: 0.0283 | Acc: 0.9922 | Val Loss: 0.0279 | Val Acc: 0.9924 | Time: 10.51s
+2025-04-18 20:55:32,506 - INFO - P1 (Round 7) - Epoch 8/10 | Loss: 0.0279 | Acc: 0.9923 | Val Loss: 0.0278 | Val Acc: 0.9927 | Time: 10.18s
+2025-04-18 20:55:42,656 - INFO - P1 (Round 7) - Epoch 9/10 | Loss: 0.0273 | Acc: 0.9925 | Val Loss: 0.0266 | Val Acc: 0.9928 | Time: 10.15s
+2025-04-18 20:55:52,811 - INFO - P1 (Round 7) - Epoch 10/10 | Loss: 0.0266 | Acc: 0.9927 | Val Loss: 0.0260 | Val Acc: 0.9932 | Time: 10.15s
+2025-04-18 20:56:02,766 - INFO - P2 (Round 7) - Epoch 1/10 | Loss: 0.0853 | Acc: 0.9725 | Val Loss: 0.0681 | Val Acc: 0.9762 | Time: 9.95s
+2025-04-18 20:56:12,774 - INFO - P2 (Round 7) - Epoch 2/10 | Loss: 0.0629 | Acc: 0.9783 | Val Loss: 0.0600 | Val Acc: 0.9786 | Time: 10.01s
+2025-04-18 20:56:24,261 - INFO - P2 (Round 7) - Epoch 3/10 | Loss: 0.0594 | Acc: 0.9796 | Val Loss: 0.0575 | Val Acc: 0.9800 | Time: 11.49s
+2025-04-18 20:56:34,269 - INFO - P2 (Round 7) - Epoch 4/10 | Loss: 0.0571 | Acc: 0.9803 | Val Loss: 0.0569 | Val Acc: 0.9809 | Time: 10.01s
+2025-04-18 20:56:44,744 - INFO - P2 (Round 7) - Epoch 5/10 | Loss: 0.0546 | Acc: 0.9811 | Val Loss: 0.0521 | Val Acc: 0.9822 | Time: 10.48s
+2025-04-18 20:56:54,829 - INFO - P2 (Round 7) - Epoch 6/10 | Loss: 0.0533 | Acc: 0.9816 | Val Loss: 0.0543 | Val Acc: 0.9809 | Time: 10.08s
+2025-04-18 20:57:05,162 - INFO - P2 (Round 7) - Epoch 7/10 | Loss: 0.0523 | Acc: 0.9819 | Val Loss: 0.0525 | Val Acc: 0.9820 | Time: 10.33s
+2025-04-18 20:57:19,392 - INFO - P2 (Round 7) - Epoch 8/10 | Loss: 0.0518 | Acc: 0.9820 | Val Loss: 0.0513 | Val Acc: 0.9819 | Time: 14.23s
+2025-04-18 20:57:34,256 - INFO - P2 (Round 7) - Epoch 9/10 | Loss: 0.0514 | Acc: 0.9822 | Val Loss: 0.0506 | Val Acc: 0.9822 | Time: 14.86s
+2025-04-18 20:57:47,185 - INFO - P2 (Round 7) - Epoch 10/10 | Loss: 0.0510 | Acc: 0.9823 | Val Loss: 0.0526 | Val Acc: 0.9816 | Time: 12.93s
+2025-04-18 20:57:49,835 - INFO - Round 7 completed in 219.96s
+2025-04-18 20:57:49,835 - INFO - Global Model - P1 Test: Loss = 7.9030, Accuracy = 0.2248
+2025-04-18 20:57:49,835 - INFO - Global Model - P2 Test: Loss = 2.3032, Accuracy = 0.7636
+2025-04-18 20:58:00,284 - INFO - P1 (Round 8) - Epoch 1/10 | Loss: 0.0813 | Acc: 0.9819 | Val Loss: 0.0322 | Val Acc: 0.9910 | Time: 10.45s
+2025-04-18 20:58:10,530 - INFO - P1 (Round 8) - Epoch 2/10 | Loss: 0.0307 | Acc: 0.9913 | Val Loss: 0.0294 | Val Acc: 0.9921 | Time: 10.24s
+2025-04-18 20:58:20,691 - INFO - P1 (Round 8) - Epoch 3/10 | Loss: 0.0293 | Acc: 0.9920 | Val Loss: 0.0282 | Val Acc: 0.9924 | Time: 10.16s
+2025-04-18 20:58:30,859 - INFO - P1 (Round 8) - Epoch 4/10 | Loss: 0.0284 | Acc: 0.9922 | Val Loss: 0.0278 | Val Acc: 0.9923 | Time: 10.17s
+2025-04-18 20:58:42,014 - INFO - P1 (Round 8) - Epoch 5/10 | Loss: 0.0276 | Acc: 0.9925 | Val Loss: 0.0293 | Val Acc: 0.9920 | Time: 11.15s
+2025-04-18 20:58:52,749 - INFO - P1 (Round 8) - Epoch 6/10 | Loss: 0.0269 | Acc: 0.9927 | Val Loss: 0.0263 | Val Acc: 0.9926 | Time: 10.74s
+2025-04-18 20:59:02,828 - INFO - P1 (Round 8) - Epoch 7/10 | Loss: 0.0262 | Acc: 0.9929 | Val Loss: 0.0294 | Val Acc: 0.9924 | Time: 10.08s
+2025-04-18 20:59:13,136 - INFO - P1 (Round 8) - Epoch 8/10 | Loss: 0.0258 | Acc: 0.9930 | Val Loss: 0.0254 | Val Acc: 0.9930 | Time: 10.31s
+2025-04-18 20:59:24,631 - INFO - P1 (Round 8) - Epoch 9/10 | Loss: 0.0254 | Acc: 0.9931 | Val Loss: 0.0251 | Val Acc: 0.9929 | Time: 11.49s
+2025-04-18 20:59:36,894 - INFO - P1 (Round 8) - Epoch 10/10 | Loss: 0.0251 | Acc: 0.9931 | Val Loss: 0.0257 | Val Acc: 0.9924 | Time: 12.26s
+2025-04-18 20:59:48,486 - INFO - P2 (Round 8) - Epoch 1/10 | Loss: 0.0761 | Acc: 0.9755 | Val Loss: 0.0567 | Val Acc: 0.9805 | Time: 11.59s
+2025-04-18 21:00:01,411 - INFO - P2 (Round 8) - Epoch 2/10 | Loss: 0.0561 | Acc: 0.9805 | Val Loss: 0.0542 | Val Acc: 0.9816 | Time: 12.93s
+2025-04-18 21:00:13,094 - INFO - P2 (Round 8) - Epoch 3/10 | Loss: 0.0538 | Acc: 0.9812 | Val Loss: 0.0517 | Val Acc: 0.9818 | Time: 11.68s
+2025-04-18 21:00:24,849 - INFO - P2 (Round 8) - Epoch 4/10 | Loss: 0.0526 | Acc: 0.9816 | Val Loss: 0.0531 | Val Acc: 0.9811 | Time: 11.76s
+2025-04-18 21:00:36,714 - INFO - P2 (Round 8) - Epoch 5/10 | Loss: 0.0518 | Acc: 0.9818 | Val Loss: 0.0505 | Val Acc: 0.9823 | Time: 11.86s
+2025-04-18 21:00:48,955 - INFO - P2 (Round 8) - Epoch 6/10 | Loss: 0.0513 | Acc: 0.9820 | Val Loss: 0.0503 | Val Acc: 0.9818 | Time: 12.24s
+2025-04-18 21:01:01,162 - INFO - P2 (Round 8) - Epoch 7/10 | Loss: 0.0507 | Acc: 0.9822 | Val Loss: 0.0497 | Val Acc: 0.9827 | Time: 12.21s
+2025-04-18 21:01:13,967 - INFO - P2 (Round 8) - Epoch 8/10 | Loss: 0.0503 | Acc: 0.9825 | Val Loss: 0.0485 | Val Acc: 0.9832 | Time: 12.81s
+2025-04-18 21:01:25,896 - INFO - P2 (Round 8) - Epoch 9/10 | Loss: 0.0499 | Acc: 0.9826 | Val Loss: 0.0507 | Val Acc: 0.9825 | Time: 11.93s
+2025-04-18 21:01:37,888 - INFO - P2 (Round 8) - Epoch 10/10 | Loss: 0.0496 | Acc: 0.9826 | Val Loss: 0.0483 | Val Acc: 0.9830 | Time: 11.99s
+2025-04-18 21:01:40,526 - INFO - Round 8 completed in 230.69s
+2025-04-18 21:01:40,526 - INFO - Global Model - P1 Test: Loss = 9.7614, Accuracy = 0.1210
+2025-04-18 21:01:40,526 - INFO - Global Model - P2 Test: Loss = 5.9297, Accuracy = 0.7359
+2025-04-18 21:01:52,726 - INFO - P1 (Round 9) - Epoch 1/10 | Loss: 0.0968 | Acc: 0.9790 | Val Loss: 0.0394 | Val Acc: 0.9877 | Time: 12.20s
+2025-04-18 21:02:04,946 - INFO - P1 (Round 9) - Epoch 2/10 | Loss: 0.0351 | Acc: 0.9898 | Val Loss: 0.0299 | Val Acc: 0.9923 | Time: 12.22s
+2025-04-18 21:02:17,505 - INFO - P1 (Round 9) - Epoch 3/10 | Loss: 0.0289 | Acc: 0.9922 | Val Loss: 0.0277 | Val Acc: 0.9925 | Time: 12.56s
+2025-04-18 21:02:29,998 - INFO - P1 (Round 9) - Epoch 4/10 | Loss: 0.0275 | Acc: 0.9926 | Val Loss: 0.0274 | Val Acc: 0.9925 | Time: 12.49s
+2025-04-18 21:02:41,868 - INFO - P1 (Round 9) - Epoch 5/10 | Loss: 0.0268 | Acc: 0.9928 | Val Loss: 0.0259 | Val Acc: 0.9928 | Time: 11.87s
+2025-04-18 21:02:53,999 - INFO - P1 (Round 9) - Epoch 6/10 | Loss: 0.0263 | Acc: 0.9929 | Val Loss: 0.0265 | Val Acc: 0.9929 | Time: 12.13s
+2025-04-18 21:03:06,118 - INFO - P1 (Round 9) - Epoch 7/10 | Loss: 0.0260 | Acc: 0.9929 | Val Loss: 0.0253 | Val Acc: 0.9932 | Time: 12.12s
+2025-04-18 21:03:18,342 - INFO - P1 (Round 9) - Epoch 8/10 | Loss: 0.0257 | Acc: 0.9930 | Val Loss: 0.0264 | Val Acc: 0.9931 | Time: 12.22s
+2025-04-18 21:03:31,261 - INFO - P1 (Round 9) - Epoch 9/10 | Loss: 0.0252 | Acc: 0.9932 | Val Loss: 0.0251 | Val Acc: 0.9932 | Time: 12.92s
+2025-04-18 21:03:43,537 - INFO - P1 (Round 9) - Epoch 10/10 | Loss: 0.0249 | Acc: 0.9932 | Val Loss: 0.0272 | Val Acc: 0.9923 | Time: 12.28s
+2025-04-18 21:03:53,467 - INFO - P2 (Round 9) - Epoch 1/10 | Loss: 0.1042 | Acc: 0.9729 | Val Loss: 0.0556 | Val Acc: 0.9807 | Time: 9.93s
+2025-04-18 21:04:03,408 - INFO - P2 (Round 9) - Epoch 2/10 | Loss: 0.0544 | Acc: 0.9811 | Val Loss: 0.0527 | Val Acc: 0.9811 | Time: 9.94s
+2025-04-18 21:04:13,433 - INFO - P2 (Round 9) - Epoch 3/10 | Loss: 0.0525 | Acc: 0.9817 | Val Loss: 0.0505 | Val Acc: 0.9820 | Time: 10.02s
+2025-04-18 21:04:23,141 - INFO - P2 (Round 9) - Epoch 4/10 | Loss: 0.0516 | Acc: 0.9820 | Val Loss: 0.0498 | Val Acc: 0.9826 | Time: 9.71s
+2025-04-18 21:04:33,209 - INFO - P2 (Round 9) - Epoch 5/10 | Loss: 0.0509 | Acc: 0.9823 | Val Loss: 0.0526 | Val Acc: 0.9826 | Time: 10.07s
+2025-04-18 21:04:45,363 - INFO - P2 (Round 9) - Epoch 6/10 | Loss: 0.0505 | Acc: 0.9824 | Val Loss: 0.0503 | Val Acc: 0.9824 | Time: 12.15s
+2025-04-18 21:04:55,205 - INFO - P2 (Round 9) - Epoch 7/10 | Loss: 0.0500 | Acc: 0.9826 | Val Loss: 0.0507 | Val Acc: 0.9820 | Time: 9.84s
+2025-04-18 21:05:05,235 - INFO - P2 (Round 9) - Epoch 8/10 | Loss: 0.0496 | Acc: 0.9828 | Val Loss: 0.0499 | Val Acc: 0.9828 | Time: 10.03s
+2025-04-18 21:05:15,752 - INFO - P2 (Round 9) - Epoch 9/10 | Loss: 0.0492 | Acc: 0.9829 | Val Loss: 0.0488 | Val Acc: 0.9828 | Time: 10.52s
+2025-04-18 21:05:27,616 - INFO - P2 (Round 9) - Epoch 10/10 | Loss: 0.0489 | Acc: 0.9829 | Val Loss: 0.0531 | Val Acc: 0.9818 | Time: 11.86s
+2025-04-18 21:05:30,099 - INFO - Round 9 completed in 229.57s
+2025-04-18 21:05:30,099 - INFO - Global Model - P1 Test: Loss = 7.9795, Accuracy = 0.0970
+2025-04-18 21:05:30,099 - INFO - Global Model - P2 Test: Loss = 3.3875, Accuracy = 0.7486
+2025-04-18 21:05:42,093 - INFO - P1 (Round 10) - Epoch 1/10 | Loss: 0.0819 | Acc: 0.9807 | Val Loss: 0.0330 | Val Acc: 0.9903 | Time: 11.99s
+2025-04-18 21:05:54,940 - INFO - P1 (Round 10) - Epoch 2/10 | Loss: 0.0308 | Acc: 0.9909 | Val Loss: 0.0289 | Val Acc: 0.9922 | Time: 12.85s
+2025-04-18 21:06:07,039 - INFO - P1 (Round 10) - Epoch 3/10 | Loss: 0.0287 | Acc: 0.9918 | Val Loss: 0.0278 | Val Acc: 0.9925 | Time: 12.10s
+2025-04-18 21:06:19,186 - INFO - P1 (Round 10) - Epoch 4/10 | Loss: 0.0279 | Acc: 0.9922 | Val Loss: 0.0270 | Val Acc: 0.9924 | Time: 12.15s
+2025-04-18 21:06:31,047 - INFO - P1 (Round 10) - Epoch 5/10 | Loss: 0.0274 | Acc: 0.9922 | Val Loss: 0.0288 | Val Acc: 0.9917 | Time: 11.86s
+2025-04-18 21:06:43,082 - INFO - P1 (Round 10) - Epoch 6/10 | Loss: 0.0270 | Acc: 0.9923 | Val Loss: 0.0265 | Val Acc: 0.9922 | Time: 12.03s
+2025-04-18 21:06:55,026 - INFO - P1 (Round 10) - Epoch 7/10 | Loss: 0.0268 | Acc: 0.9924 | Val Loss: 0.0268 | Val Acc: 0.9923 | Time: 11.94s
+2025-04-18 21:07:08,161 - INFO - P1 (Round 10) - Epoch 8/10 | Loss: 0.0265 | Acc: 0.9925 | Val Loss: 0.0265 | Val Acc: 0.9927 | Time: 13.13s
+2025-04-18 21:07:20,062 - INFO - P1 (Round 10) - Epoch 9/10 | Loss: 0.0262 | Acc: 0.9926 | Val Loss: 0.0255 | Val Acc: 0.9929 | Time: 11.90s
+2025-04-18 21:07:32,245 - INFO - P1 (Round 10) - Epoch 10/10 | Loss: 0.0259 | Acc: 0.9927 | Val Loss: 0.0270 | Val Acc: 0.9924 | Time: 12.18s
+2025-04-18 21:07:44,315 - INFO - P2 (Round 10) - Epoch 1/10 | Loss: 0.0791 | Acc: 0.9750 | Val Loss: 0.0560 | Val Acc: 0.9804 | Time: 12.07s
+2025-04-18 21:07:55,996 - INFO - P2 (Round 10) - Epoch 2/10 | Loss: 0.0541 | Acc: 0.9810 | Val Loss: 0.0524 | Val Acc: 0.9816 | Time: 11.68s
+2025-04-18 21:08:07,824 - INFO - P2 (Round 10) - Epoch 3/10 | Loss: 0.0519 | Acc: 0.9818 | Val Loss: 0.0511 | Val Acc: 0.9824 | Time: 11.83s
+2025-04-18 21:08:20,808 - INFO - P2 (Round 10) - Epoch 4/10 | Loss: 0.0508 | Acc: 0.9821 | Val Loss: 0.0501 | Val Acc: 0.9822 | Time: 12.98s
+2025-04-18 21:08:32,487 - INFO - P2 (Round 10) - Epoch 5/10 | Loss: 0.0500 | Acc: 0.9825 | Val Loss: 0.0505 | Val Acc: 0.9823 | Time: 11.68s
+2025-04-18 21:08:44,623 - INFO - P2 (Round 10) - Epoch 6/10 | Loss: 0.0494 | Acc: 0.9827 | Val Loss: 0.0486 | Val Acc: 0.9829 | Time: 12.14s
+2025-04-18 21:08:56,475 - INFO - P2 (Round 10) - Epoch 7/10 | Loss: 0.0491 | Acc: 0.9827 | Val Loss: 0.0501 | Val Acc: 0.9819 | Time: 11.85s
+2025-04-18 21:09:07,908 - INFO - P2 (Round 10) - Epoch 8/10 | Loss: 0.0488 | Acc: 0.9829 | Val Loss: 0.0479 | Val Acc: 0.9831 | Time: 11.43s
+2025-04-18 21:09:19,831 - INFO - P2 (Round 10) - Epoch 9/10 | Loss: 0.0485 | Acc: 0.9830 | Val Loss: 0.0478 | Val Acc: 0.9828 | Time: 11.92s
+2025-04-18 21:09:32,481 - INFO - P2 (Round 10) - Epoch 10/10 | Loss: 0.0483 | Acc: 0.9831 | Val Loss: 0.0496 | Val Acc: 0.9825 | Time: 12.65s
+2025-04-18 21:09:35,046 - INFO - Round 10 completed in 244.95s
+2025-04-18 21:09:35,046 - INFO - Global Model - P1 Test: Loss = 6.8825, Accuracy = 0.1199
+2025-04-18 21:09:35,046 - INFO - Global Model - P2 Test: Loss = 2.7856, Accuracy = 0.7556
+2025-04-18 21:09:37,712 - INFO - Final Results after 10 rounds:
+2025-04-18 21:09:37,712 - INFO - Global Model - P1 Test: Loss = 6.8825, Accuracy = 0.1199
+2025-04-18 21:09:37,712 - INFO - Global Model - P2 Test: Loss = 2.7856, Accuracy = 0.7556
+2025-04-18 21:09:37,721 - INFO - Experiment 142 results saved to results/suppression_experiments/exp_142_p1f4_p2f13.json

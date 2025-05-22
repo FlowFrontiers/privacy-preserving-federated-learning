@@ -39,9 +39,14 @@ pip install torch scikit-learn pandas numpy matplotlib seaborn pyyaml opacus pya
 │   └── experiment.py        # Experiment runners
 ├── datasets/                # Directory for datasets (created automatically)
 ├── results/                 # Experiment results (created automatically)
-│   ├── federated_experiments/ # Only intermediate federated results
-│   ├── suppression_experiments/ # Only per-case suppression results
-│   └── dp_experiments/      # Only per-case DP experiment results
+│   ├── iid/
+│   │   ├── federated_experiments/ # Only intermediate federated results
+│   │   ├── suppression_experiments/ # Only per-case suppression results
+│   │   └── dp_experiments/      # Only per-case DP experiment results
+│   ├── non-iid/
+│   │   ├── federated_experiments/ # Only intermediate federated results
+│   │   ├── suppression_experiments/ # Only per-case suppression results
+│   │   └── dp_experiments/      # Only per-case DP experiment results
 └── logs/                    # Experiment logs (created automatically)
     ├── local_experiments/   # Logs for local experiments
     ├── federated_experiments/ # Logs for federated experiments
@@ -51,10 +56,10 @@ pip install torch scikit-learn pandas numpy matplotlib seaborn pyyaml opacus pya
 
 ### Result File Organization
 
-- **All final results** are stored directly in the `results/` directory (including local results)
-- **Federated learning**: Final results in main `results/` directory and intermediate checkpoints in `results/federated_experiments/`
-- **Suppression experiments**: Final combined results in main `results/` directory (e.g., `suppression_final_*.json`) and per-case results in `results/suppression_experiments/`
-- **Differential privacy**: Final combined results in main `results/` directory (e.g., `dp_final_*.json`) and per-case results in `results/dp_experiments/`
+- **All final results** are stored in the `results/<iid|non-iid>/` directory (including local results)
+- **Federated learning**: Final results in main `results/<iid|non-iid>/` directory and intermediate checkpoints in `results/federated_experiments/`
+- **Suppression experiments**: Final combined results in main `results/<iid|non-iid>/` directory (e.g., `suppression_final_*.json`) and per-case results in `results/<iid|non-iid>/suppression_experiments/`
+- **Differential privacy**: Final combined results in main `results/<iid|non-iid>/` directory (e.g., `dp_final_*.json`) and per-case results in `results/<iid|non-iid>/dp_experiments/`
 
 ## Usage
 
@@ -66,25 +71,25 @@ You can run experiments in different ways:
 
 ```bash
 # Run a local baseline experiment
-python run_experiment.py --experiment-type local
+>>> python run_experiment.py --experiment-type local
 python run_experiment.py --experiment-type local --seed 42
 
 # Run a federated learning experiment
-python run_experiment.py --experiment-type federated
+>>> python run_experiment.py --experiment-type federated
 python run_experiment.py --experiment-type federated --federated-rounds 10 --client-epochs 10
 
 # Run a suppression experiment
 python run_experiment.py --experiment-type suppression
 
 # Run a suppression experiment with limited parallel processes (for memory control)
-python run_experiment.py --experiment-type suppression --max-suppression-processes 4
+>>> python run_experiment.py --experiment-type suppression --max-suppression-processes 10
 
 # Run a differential privacy experiment with specific noise levels
 python run_experiment.py --experiment-type differential_privacy
 python run_experiment.py --experiment-type differential_privacy --noise-p1 0.5 --noise-p2 1.0
 
 # Run DP experiments with limited parallel processes (to control memory usage)
-python run_experiment.py --experiment-type differential_privacy --max-dp-processes 5
+>>> python run_experiment.py --experiment-type differential_privacy --max-dp-processes 6
 ```
 
 #### 2. Using Configuration Files
@@ -106,7 +111,7 @@ python run_experiment.py --config example_config.yaml
 To create visualizations and analyze experiment results:
 
 ```bash
-python run_experiment.py --analyze results
+>>> python run_experiment.py --analyze results
 ```
 
 This will create heatmaps and other visualizations based on the available results in the specified directory.
